@@ -38,6 +38,65 @@
 
 ![isp](resources/isp.png)
 
+用户通过 **接入 ISP** 连接互联网，例如家庭宽带运营商、校园网和企业 ISP。
+
+不同 ISP 必须互相连接，否则一个 ISP 的用户无法访问另一个 ISP 中的服务器。
+
+如果有 \(N\) 个 ISP，让它们两两直接连接，大约需要：
+$$
+\frac{N(N-1)}{2} 
+$$
+
+
+条连接，其复杂度为：
+$$
+O(N^2)
+$$
+
+
+当 ISP 数量达到数百万时，这种方式无法扩展。
+
+![simpleisp](resources/simpleisp.png)
+
+一种方案是让所有接入 ISP 都连接到一个大型全球 ISP：
+
+```
+Access ISP ─┐
+Access ISP ─┼→ Global transit ISP
+Access ISP ─┘
+```
+
+接入 ISP 是客户，全球 ISP 是服务提供商，双方存在经济协议：
+
+- 客户 ISP 向 provider ISP 付费；
+- provider ISP 帮它把流量送到互联网其他部分。
+
+但有利可图的业务一定会出现竞争者，所以现实中不会只有一家 global ISP，而是会出现 ISP A、ISP B、ISP C 等。
+
+不同大型 ISP 的用户需要互相通信，所以这些 ISP 必须互联。
+
+常见互联方式有两种：
+
+1. Peering link
+
+   两个 ISP 直接连接并交换彼此客户的流量：
+
+```
+ISP A ═══ peering link ═══ ISP B
+```
+
+2. IXP
+
+   IXP = Internet Exchange Point，互联网交换中心提供一个公共交换地点，让多个 ISP 集中互联：
+
+```
+             ┌─ ISP A
+用户流量 → IXP ├─ ISP B
+             └─ ISP C
+```
+
+![actualisp](resources/actualisp.png)
+
 ## 具体组成
 
 计算机网络的具体组成：
