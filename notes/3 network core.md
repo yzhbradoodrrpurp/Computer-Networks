@@ -42,12 +42,6 @@ packet 进入路由器
 
 ![networkingcorekeyfunctions](resources/networkingcorekeyfunctions.png)
 
-## 
-
-
-
-
-
 ## 分组交换 (packet switching)
 
 主机会把应用产生的完整消息切分成多个 **packet（分组）**：
@@ -113,6 +107,17 @@ A、B 的数据 ──100 Mbps──→ 路由器 ──1.5 Mbps──→ C、D�
 - **Packet loss（丢包）**：缓存已满时，新到达的 packet 无处存放，只能被丢弃。
 
 ![queueandloss](resources/queueandloss.png)
+
+### 传送时间
+
+传送一个节点包括以下时间：
+
+1. $d_{trans}$：将一个 packet 传送到 communication link 上的时间
+2. $d_{prop}$：packet 在 communication link 上从一端传到另一端的时间
+3. $d_{proc}$：进入路由器后对 packet 进行处理的时间，检查比特错误、决定输出端口等等
+4. $d_{queue}$：排队进入路由器的时间，根据路由器拥堵程度决定
+
+![nodaltime](resources/nodaltime.png)
 
 ## 电路交换 (circuit switching)
 
