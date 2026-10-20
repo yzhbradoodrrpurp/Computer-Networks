@@ -1,0 +1,3 @@
+- generic [active] [ref=f2e1]:
+  - text: Congratulations again! Now you've downloaded the file lab2-2.html. This file's last modification date will not change.
+  - paragraph [ref=f2e2]: Thus if you download this multiple times on your browser, a complete copy will only be sent once by the server due to the inclusion of the IN-MODIFIED-SINCE field in your browser's HTTP GET request to the server.

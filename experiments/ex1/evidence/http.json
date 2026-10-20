@@ -1,0 +1,1853 @@
+[
+  {
+    "_index": "packets-2026-10-19",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "en0"
+          },
+          "frame.packet_flags": "0x00000002",
+          "frame.packet_flags_tree": {
+            "frame.packet_flags_direction": "0x00000002",
+            "frame.packet_flags_reception_type": "0",
+            "frame.packet_flags_fcs_length": "0",
+            "frame.packet_flags_reserved": "0",
+            "frame.packet_flags_crc_error": "0",
+            "frame.packet_flags_packet_too_error": "0",
+            "frame.packet_flags_packet_too_short_error": "0",
+            "frame.packet_flags_wrong_inter_frame_gap_error": "0",
+            "frame.packet_flags_unaligned_frame_error": "0",
+            "frame.packet_flags_start_frame_delimiter_error": "0",
+            "frame.packet_flags_preamble_error": "0",
+            "frame.packet_flags_symbol_error": "0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-19T13:58:41.038959000Z",
+          "frame.time_utc": "2026-10-19T13:58:41.038959000Z",
+          "frame.time_epoch": "2026-10-19T13:58:41.038959000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.002207000",
+          "frame.time_relative": "0.295016000",
+          "frame.number": "5",
+          "frame.len": "535",
+          "frame.cap_len": "535",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.p2p_dir": "0",
+          "frame.darwin.process_info": {
+            "frame.darwin.process_info.pid": "24906",
+            "frame.darwin.process_info.pname": "Google Chrome fo"
+          },
+          "frame.darwin": "1",
+          "frame.darwin_tree": {
+            "frame.darwin.flags": "0x00000008",
+            "frame.darwin.flags_tree": {
+              "frame.darwin.flags.wk": "0",
+              "frame.darwin.flags.ch": "0",
+              "frame.darwin.flags.so": "1",
+              "frame.darwin.flags.re": "0",
+              "frame.darwin.flags.ka": "0",
+              "frame.darwin.flags.nf": "0"
+            },
+            "frame.darwin.sc": "0",
+            "frame.darwin.flow_id": "0x8ad49d3e"
+          },
+          "frame.protocols": "darwin:eth:ethertype:ip:tcp:http",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "74:08:aa:99:5c:16",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "RuijieNetwor_99:5c:16",
+            "eth.dst.oui": "7604394",
+            "eth.dst.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "74:08:aa:99:5c:16",
+            "eth.addr_resolved": "RuijieNetwor_99:5c:16",
+            "eth.addr.oui": "7604394",
+            "eth.addr.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "fe:78:88:a1:99:18",
+          "eth.src_tree": {
+            "eth.src_resolved": "fe:78:88:a1:99:18",
+            "eth.src.oui": "16677000",
+            "eth.src.lg": "1",
+            "eth.src.ig": "0",
+            "eth.addr": "fe:78:88:a1:99:18",
+            "eth.addr_resolved": "fe:78:88:a1:99:18",
+            "eth.addr.oui": "16677000",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x02",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "2"
+          },
+          "ip.len": "521",
+          "ip.id": "0x0000",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0xe12b",
+          "ip.checksum.status": "2",
+          "ip.src": "10.132.215.185",
+          "ip.addr": "10.132.215.185",
+          "ip.src_host": "10.132.215.185",
+          "ip.host": "10.132.215.185",
+          "ip.dst": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.dst_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "61541",
+          "tcp.dstport": "80",
+          "tcp.port": "61541",
+          "tcp.port": "80",
+          "tcp.stream": "0",
+          "tcp.stream.pnum": "4",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "469",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "2668947567",
+          "tcp.nxtseq": "470",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "3492375200",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "2053",
+          "tcp.window_size": "131392",
+          "tcp.window_size_scalefactor": "64",
+          "tcp.checksum": "0xde67",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:07:93:4f:71:a7:8f:39:5b",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:07:93:4f:71:a7:8f:39:5b",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "127094641",
+              "tcp.options.timestamp.tsecr": "2811181403"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.295016000",
+            "tcp.time_delta": "0.002207000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.292809000",
+            "tcp.analysis.bytes_in_flight": "469",
+            "tcp.analysis.push_bytes_sent": "469"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "47:45:54:20:2f:77:69:72:65:73:68:61:72:6b:2d:6c:61:62:73:2f:48:54:54:50:2d:77:69:72:65:73:68:61:72:6b:2d:66:69:6c:65:31:2e:68:74:6d:6c:20:48:54:54:50:2f:31:2e:31:0d:0a:48:6f:73:74:3a:20:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:6b:65:65:70:2d:61:6c:69:76:65:0d:0a:55:70:67:72:61:64:65:2d:49:6e:73:65:63:75:72:65:2d:52:65:71:75:65:73:74:73:3a:20:31:0d:0a:55:73:65:72:2d:41:67:65:6e:74:3a:20:4d:6f:7a:69:6c:6c:61:2f:35:2e:30:20:28:4d:61:63:69:6e:74:6f:73:68:3b:20:49:6e:74:65:6c:20:4d:61:63:20:4f:53:20:58:20:31:30:5f:31:35:5f:37:29:20:41:70:70:6c:65:57:65:62:4b:69:74:2f:35:33:37:2e:33:36:20:28:4b:48:54:4d:4c:2c:20:6c:69:6b:65:20:47:65:63:6b:6f:29:20:43:68:72:6f:6d:65:2f:31:35:33:2e:30:2e:30:2e:30:20:53:61:66:61:72:69:2f:35:33:37:2e:33:36:0d:0a:41:63:63:65:70:74:2d:4c:61:6e:67:75:61:67:65:3a:20:7a:68:2d:43:4e:0d:0a:41:63:63:65:70:74:3a:20:74:65:78:74:2f:68:74:6d:6c:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:68:74:6d:6c:2b:78:6d:6c:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:6d:6c:3b:71:3d:30:2e:39:2c:69:6d:61:67:65:2f:61:76:69:66:2c:69:6d:61:67:65:2f:77:65:62:70:2c:69:6d:61:67:65:2f:61:70:6e:67:2c:2a:2f:2a:3b:71:3d:30:2e:38:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:73:69:67:6e:65:64:2d:65:78:63:68:61:6e:67:65:3b:76:3d:62:33:3b:71:3d:30:2e:37:0d:0a:41:63:63:65:70:74:2d:45:6e:63:6f:64:69:6e:67:3a:20:67:7a:69:70:2c:20:64:65:66:6c:61:74:65:0d:0a:0d:0a"
+        },
+        "http": {
+          "GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\\r\\n": {
+            "http.request.method": "GET",
+            "http.request.uri": "/wireshark-labs/HTTP-wireshark-file1.html",
+            "http.request.version": "HTTP/1.1"
+          },
+          "http.host": "gaia.cs.umass.edu",
+          "http.request.line": "Host: gaia.cs.umass.edu\r\n",
+          "http.connection": "keep-alive",
+          "http.request.line": "Connection: keep-alive\r\n",
+          "http.request.line": "Upgrade-Insecure-Requests: 1\r\n",
+          "http.user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "http.request.line": "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\r\n",
+          "http.accept_language": "zh-CN",
+          "http.request.line": "Accept-Language: zh-CN\r\n",
+          "http.accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "http.request.line": "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n",
+          "http.accept_encoding": "gzip, deflate",
+          "http.request.line": "Accept-Encoding: gzip, deflate\r\n",
+          "\\r\\n": "",
+          "http.request": "1",
+          "http.response_in": "9",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-19",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "en0"
+          },
+          "frame.packet_flags": "0x00000001",
+          "frame.packet_flags_tree": {
+            "frame.packet_flags_direction": "0x00000001",
+            "frame.packet_flags_reception_type": "0",
+            "frame.packet_flags_fcs_length": "0",
+            "frame.packet_flags_reserved": "0",
+            "frame.packet_flags_crc_error": "0",
+            "frame.packet_flags_packet_too_error": "0",
+            "frame.packet_flags_packet_too_short_error": "0",
+            "frame.packet_flags_wrong_inter_frame_gap_error": "0",
+            "frame.packet_flags_unaligned_frame_error": "0",
+            "frame.packet_flags_start_frame_delimiter_error": "0",
+            "frame.packet_flags_preamble_error": "0",
+            "frame.packet_flags_symbol_error": "0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-19T13:58:41.333040000Z",
+          "frame.time_utc": "2026-10-19T13:58:41.333040000Z",
+          "frame.time_epoch": "2026-10-19T13:58:41.333040000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.001352000",
+          "frame.time_delta_displayed": "0.294081000",
+          "frame.time_relative": "0.589097000",
+          "frame.number": "9",
+          "frame.len": "555",
+          "frame.cap_len": "555",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.p2p_dir": "1",
+          "frame.darwin.process_info": {
+            "frame.darwin.process_info.pid": "24906",
+            "frame.darwin.process_info.pname": "Google Chrome fo"
+          },
+          "frame.darwin": "1",
+          "frame.darwin_tree": {
+            "frame.darwin.flags": "0x00000008",
+            "frame.darwin.flags_tree": {
+              "frame.darwin.flags.wk": "0",
+              "frame.darwin.flags.ch": "0",
+              "frame.darwin.flags.so": "1",
+              "frame.darwin.flags.re": "0",
+              "frame.darwin.flags.ka": "0",
+              "frame.darwin.flags.nf": "0"
+            },
+            "frame.darwin.sc": "0",
+            "frame.darwin.flow_id": "0x8ad49d3e"
+          },
+          "frame.protocols": "darwin:eth:ethertype:ip:tcp:http:data-text-lines",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "fe:78:88:a1:99:18",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "fe:78:88:a1:99:18",
+            "eth.dst.oui": "16677000",
+            "eth.dst.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.addr": "fe:78:88:a1:99:18",
+            "eth.addr_resolved": "fe:78:88:a1:99:18",
+            "eth.addr.oui": "16677000",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.src": "74:08:aa:99:5c:16",
+          "eth.src_tree": {
+            "eth.src_resolved": "RuijieNetwor_99:5c:16",
+            "eth.src.oui": "7604394",
+            "eth.src.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "74:08:aa:99:5c:16",
+            "eth.addr_resolved": "RuijieNetwor_99:5c:16",
+            "eth.addr.oui": "7604394",
+            "eth.addr.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x02",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "2"
+          },
+          "ip.len": "541",
+          "ip.id": "0x2de9",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "27",
+          "ip.proto": "6",
+          "ip.checksum": "0xd82e",
+          "ip.checksum.status": "2",
+          "ip.src": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.src_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.dst": "10.132.215.185",
+          "ip.addr": "10.132.215.185",
+          "ip.dst_host": "10.132.215.185",
+          "ip.host": "10.132.215.185",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "80",
+          "tcp.dstport": "61541",
+          "tcp.port": "80",
+          "tcp.port": "61541",
+          "tcp.stream": "0",
+          "tcp.stream.pnum": "6",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "489",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "3492375200",
+          "tcp.nxtseq": "490",
+          "tcp.ack": "470",
+          "tcp.ack_raw": "2668948036",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "506",
+          "tcp.window_size": "64768",
+          "tcp.window_size_scalefactor": "128",
+          "tcp.checksum": "0x52fa",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:a7:8f:3a:83:07:93:4f:71",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:a7:8f:3a:83:07:93:4f:71",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "2811181699",
+              "tcp.options.timestamp.tsecr": "127094641"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.589097000",
+            "tcp.time_delta": "0.001352000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.292809000",
+            "tcp.analysis.bytes_in_flight": "489",
+            "tcp.analysis.push_bytes_sent": "489"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "48:54:54:50:2f:31:2e:31:20:32:30:30:20:4f:4b:0d:0a:44:61:74:65:3a:20:4d:6f:6e:2c:20:31:39:20:4f:63:74:20:32:30:32:36:20:31:33:3a:35:38:3a:34:31:20:47:4d:54:0d:0a:53:65:72:76:65:72:3a:20:41:70:61:63:68:65:2f:32:2e:34:2e:36:32:20:28:41:6c:6d:61:4c:69:6e:75:78:29:20:4f:70:65:6e:53:53:4c:2f:33:2e:35:2e:35:20:6d:6f:64:5f:66:63:67:69:64:2f:32:2e:33:2e:39:20:6d:6f:64:5f:70:65:72:6c:2f:32:2e:30:2e:31:32:20:50:65:72:6c:2f:76:35:2e:33:32:2e:31:0d:0a:4c:61:73:74:2d:4d:6f:64:69:66:69:65:64:3a:20:54:75:65:2c:20:32:38:20:4f:63:74:20:32:30:32:35:20:30:35:3a:35:39:3a:30:31:20:47:4d:54:0d:0a:45:54:61:67:3a:20:22:38:30:2d:36:34:32:33:31:62:36:37:31:37:65:38:37:22:0d:0a:41:63:63:65:70:74:2d:52:61:6e:67:65:73:3a:20:62:79:74:65:73:0d:0a:43:6f:6e:74:65:6e:74:2d:4c:65:6e:67:74:68:3a:20:31:32:38:0d:0a:4b:65:65:70:2d:41:6c:69:76:65:3a:20:74:69:6d:65:6f:75:74:3d:35:2c:20:6d:61:78:3d:31:30:30:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:4b:65:65:70:2d:41:6c:69:76:65:0d:0a:43:6f:6e:74:65:6e:74:2d:54:79:70:65:3a:20:74:65:78:74:2f:68:74:6d:6c:3b:20:63:68:61:72:73:65:74:3d:55:54:46:2d:38:0d:0a:0d:0a:3c:68:74:6d:6c:3e:0a:43:6f:6e:67:72:61:74:75:6c:61:74:69:6f:6e:73:2e:20:20:59:6f:75:27:76:65:20:64:6f:77:6e:6c:6f:61:64:65:64:20:74:68:65:20:66:69:6c:65:20:0a:68:74:74:70:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:77:69:72:65:73:68:61:72:6b:2d:6c:61:62:73:2f:48:54:54:50:2d:77:69:72:65:73:68:61:72:6b:2d:66:69:6c:65:31:2e:68:74:6d:6c:21:0a:3c:2f:68:74:6d:6c:3e:0a"
+        },
+        "http": {
+          "HTTP/1.1 200 OK\\r\\n": {
+            "http.response.version": "HTTP/1.1",
+            "http.response.code": "200",
+            "http.response.code.desc": "OK",
+            "http.response.phrase": "OK"
+          },
+          "http.date": "Mon, 19 Oct 2026 13:58:41 GMT",
+          "http.response.line": "Date: Mon, 19 Oct 2026 13:58:41 GMT\r\n",
+          "http.server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1",
+          "http.response.line": "Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n",
+          "http.last_modified": "Tue, 28 Oct 2025 05:59:01 GMT",
+          "http.response.line": "Last-Modified: Tue, 28 Oct 2025 05:59:01 GMT\r\n",
+          "http.response.line": "ETag: \"80-64231b6717e87\"\r\n",
+          "http.response.line": "Accept-Ranges: bytes\r\n",
+          "http.content_length_header": "128",
+          "http.content_length_header_tree": {
+            "http.content_length": "128"
+          },
+          "http.response.line": "Content-Length: 128\r\n",
+          "http.response.line": "Keep-Alive: timeout=5, max=100\r\n",
+          "http.connection": "Keep-Alive",
+          "http.response.line": "Connection: Keep-Alive\r\n",
+          "http.content_type": "text/html; charset=UTF-8",
+          "http.response.line": "Content-Type: text/html; charset=UTF-8\r\n",
+          "\\r\\n": "",
+          "http.response": "1",
+          "http.request_in": "5",
+          "http.time": "0.294081000",
+          "http.request.uri": "/wireshark-labs/HTTP-wireshark-file1.html",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html",
+          "http.file_data": "3c:68:74:6d:6c:3e:0a:43:6f:6e:67:72:61:74:75:6c:61:74:69:6f:6e:73:2e:20:20:59:6f:75:27:76:65:20:64:6f:77:6e:6c:6f:61:64:65:64:20:74:68:65:20:66:69:6c:65:20:0a:68:74:74:70:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:77:69:72:65:73:68:61:72:6b:2d:6c:61:62:73:2f:48:54:54:50:2d:77:69:72:65:73:68:61:72:6b:2d:66:69:6c:65:31:2e:68:74:6d:6c:21:0a:3c:2f:68:74:6d:6c:3e:0a"
+        },
+        "data-text-lines": {
+          "<html>\\n": "",
+          "Congratulations.  You've downloaded the file \\n": "",
+          "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html!\\n": "",
+          "<\/html>\\n": ""
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-19",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "en0"
+          },
+          "frame.packet_flags": "0x00000002",
+          "frame.packet_flags_tree": {
+            "frame.packet_flags_direction": "0x00000002",
+            "frame.packet_flags_reception_type": "0",
+            "frame.packet_flags_fcs_length": "0",
+            "frame.packet_flags_reserved": "0",
+            "frame.packet_flags_crc_error": "0",
+            "frame.packet_flags_packet_too_error": "0",
+            "frame.packet_flags_packet_too_short_error": "0",
+            "frame.packet_flags_wrong_inter_frame_gap_error": "0",
+            "frame.packet_flags_unaligned_frame_error": "0",
+            "frame.packet_flags_start_frame_delimiter_error": "0",
+            "frame.packet_flags_preamble_error": "0",
+            "frame.packet_flags_symbol_error": "0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-19T13:58:41.627016000Z",
+          "frame.time_utc": "2026-10-19T13:58:41.627016000Z",
+          "frame.time_epoch": "2026-10-19T13:58:41.627016000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.293952000",
+          "frame.time_delta_displayed": "0.293976000",
+          "frame.time_relative": "0.883073000",
+          "frame.number": "11",
+          "frame.len": "481",
+          "frame.cap_len": "481",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.p2p_dir": "0",
+          "frame.darwin.process_info": {
+            "frame.darwin.process_info.pid": "24906",
+            "frame.darwin.process_info.pname": "Google Chrome fo"
+          },
+          "frame.darwin": "1",
+          "frame.darwin_tree": {
+            "frame.darwin.flags": "0x00000008",
+            "frame.darwin.flags_tree": {
+              "frame.darwin.flags.wk": "0",
+              "frame.darwin.flags.ch": "0",
+              "frame.darwin.flags.so": "1",
+              "frame.darwin.flags.re": "0",
+              "frame.darwin.flags.ka": "0",
+              "frame.darwin.flags.nf": "0"
+            },
+            "frame.darwin.sc": "0",
+            "frame.darwin.flow_id": "0x8ad49d3e"
+          },
+          "frame.protocols": "darwin:eth:ethertype:ip:tcp:http",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "74:08:aa:99:5c:16",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "RuijieNetwor_99:5c:16",
+            "eth.dst.oui": "7604394",
+            "eth.dst.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "74:08:aa:99:5c:16",
+            "eth.addr_resolved": "RuijieNetwor_99:5c:16",
+            "eth.addr.oui": "7604394",
+            "eth.addr.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "fe:78:88:a1:99:18",
+          "eth.src_tree": {
+            "eth.src_resolved": "fe:78:88:a1:99:18",
+            "eth.src.oui": "16677000",
+            "eth.src.lg": "1",
+            "eth.src.ig": "0",
+            "eth.addr": "fe:78:88:a1:99:18",
+            "eth.addr_resolved": "fe:78:88:a1:99:18",
+            "eth.addr.oui": "16677000",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x02",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "2"
+          },
+          "ip.len": "467",
+          "ip.id": "0x0000",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0xe161",
+          "ip.checksum.status": "2",
+          "ip.src": "10.132.215.185",
+          "ip.addr": "10.132.215.185",
+          "ip.src_host": "10.132.215.185",
+          "ip.host": "10.132.215.185",
+          "ip.dst": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.dst_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "61541",
+          "tcp.dstport": "80",
+          "tcp.port": "61541",
+          "tcp.port": "80",
+          "tcp.stream": "0",
+          "tcp.stream.pnum": "8",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "415",
+          "tcp.seq": "470",
+          "tcp.seq_raw": "2668948036",
+          "tcp.nxtseq": "885",
+          "tcp.ack": "490",
+          "tcp.ack_raw": "3492375689",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "2048",
+          "tcp.window_size": "131072",
+          "tcp.window_size_scalefactor": "64",
+          "tcp.checksum": "0x6e36",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:07:93:51:bd:a7:8f:3a:83",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:07:93:51:bd:a7:8f:3a:83",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "127095229",
+              "tcp.options.timestamp.tsecr": "2811181699"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.883073000",
+            "tcp.time_delta": "0.293952000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.292809000",
+            "tcp.analysis.bytes_in_flight": "415",
+            "tcp.analysis.push_bytes_sent": "415"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "47:45:54:20:2f:66:61:76:69:63:6f:6e:2e:69:63:6f:20:48:54:54:50:2f:31:2e:31:0d:0a:48:6f:73:74:3a:20:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:6b:65:65:70:2d:61:6c:69:76:65:0d:0a:55:73:65:72:2d:41:67:65:6e:74:3a:20:4d:6f:7a:69:6c:6c:61:2f:35:2e:30:20:28:4d:61:63:69:6e:74:6f:73:68:3b:20:49:6e:74:65:6c:20:4d:61:63:20:4f:53:20:58:20:31:30:5f:31:35:5f:37:29:20:41:70:70:6c:65:57:65:62:4b:69:74:2f:35:33:37:2e:33:36:20:28:4b:48:54:4d:4c:2c:20:6c:69:6b:65:20:47:65:63:6b:6f:29:20:43:68:72:6f:6d:65:2f:31:35:33:2e:30:2e:30:2e:30:20:53:61:66:61:72:69:2f:35:33:37:2e:33:36:0d:0a:41:63:63:65:70:74:2d:4c:61:6e:67:75:61:67:65:3a:20:7a:68:2d:43:4e:0d:0a:41:63:63:65:70:74:3a:20:69:6d:61:67:65:2f:61:76:69:66:2c:69:6d:61:67:65:2f:77:65:62:70:2c:69:6d:61:67:65:2f:61:70:6e:67:2c:69:6d:61:67:65:2f:73:76:67:2b:78:6d:6c:2c:69:6d:61:67:65:2f:2a:2c:2a:2f:2a:3b:71:3d:30:2e:38:0d:0a:52:65:66:65:72:65:72:3a:20:68:74:74:70:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:77:69:72:65:73:68:61:72:6b:2d:6c:61:62:73:2f:48:54:54:50:2d:77:69:72:65:73:68:61:72:6b:2d:66:69:6c:65:31:2e:68:74:6d:6c:0d:0a:41:63:63:65:70:74:2d:45:6e:63:6f:64:69:6e:67:3a:20:67:7a:69:70:2c:20:64:65:66:6c:61:74:65:0d:0a:0d:0a"
+        },
+        "http": {
+          "GET /favicon.ico HTTP/1.1\\r\\n": {
+            "http.request.method": "GET",
+            "http.request.uri": "/favicon.ico",
+            "http.request.version": "HTTP/1.1"
+          },
+          "http.host": "gaia.cs.umass.edu",
+          "http.request.line": "Host: gaia.cs.umass.edu\r\n",
+          "http.connection": "keep-alive",
+          "http.request.line": "Connection: keep-alive\r\n",
+          "http.user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "http.request.line": "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\r\n",
+          "http.accept_language": "zh-CN",
+          "http.request.line": "Accept-Language: zh-CN\r\n",
+          "http.accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+          "http.request.line": "Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n",
+          "http.referer": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html",
+          "http.request.line": "Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html\r\n",
+          "http.accept_encoding": "gzip, deflate",
+          "http.request.line": "Accept-Encoding: gzip, deflate\r\n",
+          "\\r\\n": "",
+          "http.request": "1",
+          "http.response_in": "12",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/favicon.ico"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-19",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "en0"
+          },
+          "frame.packet_flags": "0x00000001",
+          "frame.packet_flags_tree": {
+            "frame.packet_flags_direction": "0x00000001",
+            "frame.packet_flags_reception_type": "0",
+            "frame.packet_flags_fcs_length": "0",
+            "frame.packet_flags_reserved": "0",
+            "frame.packet_flags_crc_error": "0",
+            "frame.packet_flags_packet_too_error": "0",
+            "frame.packet_flags_packet_too_short_error": "0",
+            "frame.packet_flags_wrong_inter_frame_gap_error": "0",
+            "frame.packet_flags_unaligned_frame_error": "0",
+            "frame.packet_flags_start_frame_delimiter_error": "0",
+            "frame.packet_flags_preamble_error": "0",
+            "frame.packet_flags_symbol_error": "0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-19T13:58:41.920287000Z",
+          "frame.time_utc": "2026-10-19T13:58:41.920287000Z",
+          "frame.time_epoch": "2026-10-19T13:58:41.920287000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.293271000",
+          "frame.time_delta_displayed": "0.293271000",
+          "frame.time_relative": "1.176344000",
+          "frame.number": "12",
+          "frame.len": "648",
+          "frame.cap_len": "648",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.p2p_dir": "1",
+          "frame.darwin.process_info": {
+            "frame.darwin.process_info.pid": "24906",
+            "frame.darwin.process_info.pname": "Google Chrome fo"
+          },
+          "frame.darwin": "1",
+          "frame.darwin_tree": {
+            "frame.darwin.flags": "0x00000008",
+            "frame.darwin.flags_tree": {
+              "frame.darwin.flags.wk": "0",
+              "frame.darwin.flags.ch": "0",
+              "frame.darwin.flags.so": "1",
+              "frame.darwin.flags.re": "0",
+              "frame.darwin.flags.ka": "0",
+              "frame.darwin.flags.nf": "0"
+            },
+            "frame.darwin.sc": "0",
+            "frame.darwin.flow_id": "0x8ad49d3e"
+          },
+          "frame.protocols": "darwin:eth:ethertype:ip:tcp:http:data-text-lines",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "fe:78:88:a1:99:18",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "fe:78:88:a1:99:18",
+            "eth.dst.oui": "16677000",
+            "eth.dst.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.addr": "fe:78:88:a1:99:18",
+            "eth.addr_resolved": "fe:78:88:a1:99:18",
+            "eth.addr.oui": "16677000",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.src": "74:08:aa:99:5c:16",
+          "eth.src_tree": {
+            "eth.src_resolved": "RuijieNetwor_99:5c:16",
+            "eth.src.oui": "7604394",
+            "eth.src.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "74:08:aa:99:5c:16",
+            "eth.addr_resolved": "RuijieNetwor_99:5c:16",
+            "eth.addr.oui": "7604394",
+            "eth.addr.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x02",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "2"
+          },
+          "ip.len": "634",
+          "ip.id": "0x2dea",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "27",
+          "ip.proto": "6",
+          "ip.checksum": "0xd7d0",
+          "ip.checksum.status": "2",
+          "ip.src": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.src_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.dst": "10.132.215.185",
+          "ip.addr": "10.132.215.185",
+          "ip.dst_host": "10.132.215.185",
+          "ip.host": "10.132.215.185",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "80",
+          "tcp.dstport": "61541",
+          "tcp.port": "80",
+          "tcp.port": "61541",
+          "tcp.stream": "0",
+          "tcp.stream.pnum": "9",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "582",
+          "tcp.seq": "490",
+          "tcp.seq_raw": "3492375689",
+          "tcp.nxtseq": "1072",
+          "tcp.ack": "885",
+          "tcp.ack_raw": "2668948451",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "503",
+          "tcp.window_size": "64384",
+          "tcp.window_size_scalefactor": "128",
+          "tcp.checksum": "0xa6f0",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:a7:8f:3c:cf:07:93:51:bd",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:a7:8f:3c:cf:07:93:51:bd",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "2811182287",
+              "tcp.options.timestamp.tsecr": "127095229"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "1.176344000",
+            "tcp.time_delta": "0.293271000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame": "11",
+            "tcp.analysis.ack_rtt": "0.293271000",
+            "tcp.analysis.initial_rtt": "0.292809000",
+            "tcp.analysis.bytes_in_flight": "582",
+            "tcp.analysis.push_bytes_sent": "582"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "48:54:54:50:2f:31:2e:31:20:33:30:31:20:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:0d:0a:44:61:74:65:3a:20:4d:6f:6e:2c:20:31:39:20:4f:63:74:20:32:30:32:36:20:31:33:3a:35:38:3a:34:31:20:47:4d:54:0d:0a:53:65:72:76:65:72:3a:20:41:70:61:63:68:65:2f:32:2e:34:2e:36:32:20:28:41:6c:6d:61:4c:69:6e:75:78:29:20:4f:70:65:6e:53:53:4c:2f:33:2e:35:2e:35:20:6d:6f:64:5f:66:63:67:69:64:2f:32:2e:33:2e:39:20:6d:6f:64:5f:70:65:72:6c:2f:32:2e:30:2e:31:32:20:50:65:72:6c:2f:76:35:2e:33:32:2e:31:0d:0a:4c:6f:63:61:74:69:6f:6e:3a:20:68:74:74:70:73:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:2f:66:61:76:69:63:6f:6e:2e:69:63:6f:0d:0a:43:6f:6e:74:65:6e:74:2d:4c:65:6e:67:74:68:3a:20:32:34:36:0d:0a:4b:65:65:70:2d:41:6c:69:76:65:3a:20:74:69:6d:65:6f:75:74:3d:35:2c:20:6d:61:78:3d:39:39:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:4b:65:65:70:2d:41:6c:69:76:65:0d:0a:43:6f:6e:74:65:6e:74:2d:54:79:70:65:3a:20:74:65:78:74:2f:68:74:6d:6c:3b:20:63:68:61:72:73:65:74:3d:69:73:6f:2d:38:38:35:39:2d:31:0d:0a:0d:0a:3c:21:44:4f:43:54:59:50:45:20:48:54:4d:4c:20:50:55:42:4c:49:43:20:22:2d:2f:2f:49:45:54:46:2f:2f:44:54:44:20:48:54:4d:4c:20:32:2e:30:2f:2f:45:4e:22:3e:0a:3c:68:74:6d:6c:3e:3c:68:65:61:64:3e:0a:3c:74:69:74:6c:65:3e:33:30:31:20:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:3c:2f:74:69:74:6c:65:3e:0a:3c:2f:68:65:61:64:3e:3c:62:6f:64:79:3e:0a:3c:68:31:3e:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:3c:2f:68:31:3e:0a:3c:70:3e:54:68:65:20:64:6f:63:75:6d:65:6e:74:20:68:61:73:20:6d:6f:76:65:64:20:3c:61:20:68:72:65:66:3d:22:68:74:74:70:73:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:2f:66:61:76:69:63:6f:6e:2e:69:63:6f:22:3e:68:65:72:65:3c:2f:61:3e:2e:3c:2f:70:3e:0a:3c:2f:62:6f:64:79:3e:3c:2f:68:74:6d:6c:3e:0a"
+        },
+        "http": {
+          "HTTP/1.1 301 Moved Permanently\\r\\n": {
+            "http.response.version": "HTTP/1.1",
+            "http.response.code": "301",
+            "http.response.code.desc": "Moved Permanently",
+            "http.response.phrase": "Moved Permanently"
+          },
+          "http.date": "Mon, 19 Oct 2026 13:58:41 GMT",
+          "http.response.line": "Date: Mon, 19 Oct 2026 13:58:41 GMT\r\n",
+          "http.server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1",
+          "http.response.line": "Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n",
+          "http.location": "https://gaia.cs.umass.edu//favicon.ico",
+          "http.response.line": "Location: https://gaia.cs.umass.edu//favicon.ico\r\n",
+          "http.content_length_header": "246",
+          "http.content_length_header_tree": {
+            "http.content_length": "246"
+          },
+          "http.response.line": "Content-Length: 246\r\n",
+          "http.response.line": "Keep-Alive: timeout=5, max=99\r\n",
+          "http.connection": "Keep-Alive",
+          "http.response.line": "Connection: Keep-Alive\r\n",
+          "http.content_type": "text/html; charset=iso-8859-1",
+          "http.response.line": "Content-Type: text/html; charset=iso-8859-1\r\n",
+          "\\r\\n": "",
+          "http.response": "1",
+          "http.request_in": "11",
+          "http.time": "0.293271000",
+          "http.request.uri": "/favicon.ico",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/favicon.ico",
+          "http.file_data": "3c:21:44:4f:43:54:59:50:45:20:48:54:4d:4c:20:50:55:42:4c:49:43:20:22:2d:2f:2f:49:45:54:46:2f:2f:44:54:44:20:48:54:4d:4c:20:32:2e:30:2f:2f:45:4e:22:3e:0a:3c:68:74:6d:6c:3e:3c:68:65:61:64:3e:0a:3c:74:69:74:6c:65:3e:33:30:31:20:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:3c:2f:74:69:74:6c:65:3e:0a:3c:2f:68:65:61:64:3e:3c:62:6f:64:79:3e:0a:3c:68:31:3e:4d:6f:76:65:64:20:50:65:72:6d:61:6e:65:6e:74:6c:79:3c:2f:68:31:3e:0a:3c:70:3e:54:68:65:20:64:6f:63:75:6d:65:6e:74:20:68:61:73:20:6d:6f:76:65:64:20:3c:61:20:68:72:65:66:3d:22:68:74:74:70:73:3a:2f:2f:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:2f:2f:66:61:76:69:63:6f:6e:2e:69:63:6f:22:3e:68:65:72:65:3c:2f:61:3e:2e:3c:2f:70:3e:0a:3c:2f:62:6f:64:79:3e:3c:2f:68:74:6d:6c:3e:0a"
+        },
+        "data-text-lines": {
+          "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\\n": "",
+          "<html><head>\\n": "",
+          "<title>301 Moved Permanently<\/title>\\n": "",
+          "<\/head><body>\\n": "",
+          "<h1>Moved Permanently<\/h1>\\n": "",
+          "<p>The document has moved <a href=\"https://gaia.cs.umass.edu//favicon.ico\">here<\/a>.<\/p>\\n": "",
+          "<\/body><\/html>\\n": ""
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-19",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "en0"
+          },
+          "frame.packet_flags": "0x00000002",
+          "frame.packet_flags_tree": {
+            "frame.packet_flags_direction": "0x00000002",
+            "frame.packet_flags_reception_type": "0",
+            "frame.packet_flags_fcs_length": "0",
+            "frame.packet_flags_reserved": "0",
+            "frame.packet_flags_crc_error": "0",
+            "frame.packet_flags_packet_too_error": "0",
+            "frame.packet_flags_packet_too_short_error": "0",
+            "frame.packet_flags_wrong_inter_frame_gap_error": "0",
+            "frame.packet_flags_unaligned_frame_error": "0",
+            "frame.packet_flags_start_frame_delimiter_error": "0",
+            "frame.packet_flags_preamble_error": "0",
+            "frame.packet_flags_symbol_error": "0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-19T13:58:53.217216000Z",
+          "frame.time_utc": "2026-10-19T13:58:53.217216000Z",
+          "frame.time_epoch": "2026-10-19T13:58:53.217216000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.184200000",
+          "frame.time_delta_displayed": "11.296929000",
+          "frame.time_relative": "12.473273000",
+          "frame.number": "19",
+          "frame.len": "535",
+          "frame.cap_len": "535",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.p2p_dir": "0",
+          "frame.darwin.process_info": {
+            "frame.darwin.process_info.pid": "24906",
+            "frame.darwin.process_info.pname": "Google Chrome fo"
+          },
+          "frame.darwin": "1",
+          "frame.darwin_tree": {
+            "frame.darwin.flags": "0x00000008",
+            "frame.darwin.flags_tree": {
+              "frame.darwin.flags.wk": "0",
+              "frame.darwin.flags.ch": "0",
+              "frame.darwin.flags.so": "1",
+              "frame.darwin.flags.re": "0",
+              "frame.darwin.flags.ka": "0",
+              "frame.darwin.flags.nf": "0"
+            },
+            "frame.darwin.sc": "0",
+            "frame.darwin.flow_id": "0x8f65474a"
+          },
+          "frame.protocols": "darwin:eth:ethertype:ip:tcp:http",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "74:08:aa:99:5c:16",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "RuijieNetwor_99:5c:16",
+            "eth.dst.oui": "7604394",
+            "eth.dst.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "74:08:aa:99:5c:16",
+            "eth.addr_resolved": "RuijieNetwor_99:5c:16",
+            "eth.addr.oui": "7604394",
+            "eth.addr.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "fe:78:88:a1:99:18",
+          "eth.src_tree": {
+            "eth.src_resolved": "fe:78:88:a1:99:18",
+            "eth.src.oui": "16677000",
+            "eth.src.lg": "1",
+            "eth.src.ig": "0",
+            "eth.addr": "fe:78:88:a1:99:18",
+            "eth.addr_resolved": "fe:78:88:a1:99:18",
+            "eth.addr.oui": "16677000",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x02",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "2"
+          },
+          "ip.len": "521",
+          "ip.id": "0x0000",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0xe12b",
+          "ip.checksum.status": "2",
+          "ip.src": "10.132.215.185",
+          "ip.addr": "10.132.215.185",
+          "ip.src_host": "10.132.215.185",
+          "ip.host": "10.132.215.185",
+          "ip.dst": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.dst_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "61542",
+          "tcp.dstport": "80",
+          "tcp.port": "61542",
+          "tcp.port": "80",
+          "tcp.stream": "1",
+          "tcp.stream.pnum": "4",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "469",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "1050821864",
+          "tcp.nxtseq": "470",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "3989140596",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "2053",
+          "tcp.window_size": "131392",
+          "tcp.window_size_scalefactor": "64",
+          "tcp.checksum": "0x1c49",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:5c:fd:97:d5:a7:8f:3a:33",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:5c:fd:97:d5:a7:8f:3a:33",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "1560123349",
+              "tcp.options.timestamp.tsecr": "2811181619"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "12.257643000",
+            "tcp.time_delta": "11.965645000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.291998000",
+            "tcp.analysis.bytes_in_flight": "469",
+            "tcp.analysis.push_bytes_sent": "469"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "47:45:54:20:2f:77:69:72:65:73:68:61:72:6b:2d:6c:61:62:73:2f:48:54:54:50:2d:77:69:72:65:73:68:61:72:6b:2d:66:69:6c:65:32:2e:68:74:6d:6c:20:48:54:54:50:2f:31:2e:31:0d:0a:48:6f:73:74:3a:20:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:6b:65:65:70:2d:61:6c:69:76:65:0d:0a:55:70:67:72:61:64:65:2d:49:6e:73:65:63:75:72:65:2d:52:65:71:75:65:73:74:73:3a:20:31:0d:0a:55:73:65:72:2d:41:67:65:6e:74:3a:20:4d:6f:7a:69:6c:6c:61:2f:35:2e:30:20:28:4d:61:63:69:6e:74:6f:73:68:3b:20:49:6e:74:65:6c:20:4d:61:63:20:4f:53:20:58:20:31:30:5f:31:35:5f:37:29:20:41:70:70:6c:65:57:65:62:4b:69:74:2f:35:33:37:2e:33:36:20:28:4b:48:54:4d:4c:2c:20:6c:69:6b:65:20:47:65:63:6b:6f:29:20:43:68:72:6f:6d:65:2f:31:35:33:2e:30:2e:30:2e:30:20:53:61:66:61:72:69:2f:35:33:37:2e:33:36:0d:0a:41:63:63:65:70:74:2d:4c:61:6e:67:75:61:67:65:3a:20:7a:68:2d:43:4e:0d:0a:41:63:63:65:70:74:3a:20:74:65:78:74:2f:68:74:6d:6c:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:68:74:6d:6c:2b:78:6d:6c:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:6d:6c:3b:71:3d:30:2e:39:2c:69:6d:61:67:65:2f:61:76:69:66:2c:69:6d:61:67:65:2f:77:65:62:70:2c:69:6d:61:67:65:2f:61:70:6e:67:2c:2a:2f:2a:3b:71:3d:30:2e:38:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:73:69:67:6e:65:64:2d:65:78:63:68:61:6e:67:65:3b:76:3d:62:33:3b:71:3d:30:2e:37:0d:0a:41:63:63:65:70:74:2d:45:6e:63:6f:64:69:6e:67:3a:20:67:7a:69:70:2c:20:64:65:66:6c:61:74:65:0d:0a:0d:0a"
+        },
+        "http": {
+          "GET /wireshark-labs/HTTP-wireshark-file2.html HTTP/1.1\\r\\n": {
+            "http.request.method": "GET",
+            "http.request.uri": "/wireshark-labs/HTTP-wireshark-file2.html",
+            "http.request.version": "HTTP/1.1"
+          },
+          "http.host": "gaia.cs.umass.edu",
+          "http.request.line": "Host: gaia.cs.umass.edu\r\n",
+          "http.connection": "keep-alive",
+          "http.request.line": "Connection: keep-alive\r\n",
+          "http.request.line": "Upgrade-Insecure-Requests: 1\r\n",
+          "http.user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "http.request.line": "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\r\n",
+          "http.accept_language": "zh-CN",
+          "http.request.line": "Accept-Language: zh-CN\r\n",
+          "http.accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "http.request.line": "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n",
+          "http.accept_encoding": "gzip, deflate",
+          "http.request.line": "Accept-Encoding: gzip, deflate\r\n",
+          "\\r\\n": "",
+          "http.request": "1",
+          "http.response_in": "22",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-19",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "en0"
+          },
+          "frame.packet_flags": "0x00000001",
+          "frame.packet_flags_tree": {
+            "frame.packet_flags_direction": "0x00000001",
+            "frame.packet_flags_reception_type": "0",
+            "frame.packet_flags_fcs_length": "0",
+            "frame.packet_flags_reserved": "0",
+            "frame.packet_flags_crc_error": "0",
+            "frame.packet_flags_packet_too_error": "0",
+            "frame.packet_flags_packet_too_short_error": "0",
+            "frame.packet_flags_wrong_inter_frame_gap_error": "0",
+            "frame.packet_flags_unaligned_frame_error": "0",
+            "frame.packet_flags_start_frame_delimiter_error": "0",
+            "frame.packet_flags_preamble_error": "0",
+            "frame.packet_flags_symbol_error": "0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-19T13:58:53.510262000Z",
+          "frame.time_utc": "2026-10-19T13:58:53.510262000Z",
+          "frame.time_epoch": "2026-10-19T13:58:53.510262000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.001278000",
+          "frame.time_delta_displayed": "0.293046000",
+          "frame.time_relative": "12.766319000",
+          "frame.number": "22",
+          "frame.len": "799",
+          "frame.cap_len": "799",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.p2p_dir": "1",
+          "frame.darwin.process_info": {
+            "frame.darwin.process_info.pid": "24906",
+            "frame.darwin.process_info.pname": "Google Chrome fo"
+          },
+          "frame.darwin": "1",
+          "frame.darwin_tree": {
+            "frame.darwin.flags": "0x00000008",
+            "frame.darwin.flags_tree": {
+              "frame.darwin.flags.wk": "0",
+              "frame.darwin.flags.ch": "0",
+              "frame.darwin.flags.so": "1",
+              "frame.darwin.flags.re": "0",
+              "frame.darwin.flags.ka": "0",
+              "frame.darwin.flags.nf": "0"
+            },
+            "frame.darwin.sc": "0",
+            "frame.darwin.flow_id": "0x8f65474a"
+          },
+          "frame.protocols": "darwin:eth:ethertype:ip:tcp:http:data-text-lines",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "fe:78:88:a1:99:18",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "fe:78:88:a1:99:18",
+            "eth.dst.oui": "16677000",
+            "eth.dst.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.addr": "fe:78:88:a1:99:18",
+            "eth.addr_resolved": "fe:78:88:a1:99:18",
+            "eth.addr.oui": "16677000",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.src": "74:08:aa:99:5c:16",
+          "eth.src_tree": {
+            "eth.src_resolved": "RuijieNetwor_99:5c:16",
+            "eth.src.oui": "7604394",
+            "eth.src.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "74:08:aa:99:5c:16",
+            "eth.addr_resolved": "RuijieNetwor_99:5c:16",
+            "eth.addr.oui": "7604394",
+            "eth.addr.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x02",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "2"
+          },
+          "ip.len": "785",
+          "ip.id": "0xf1fd",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "28",
+          "ip.proto": "6",
+          "ip.checksum": "0x1226",
+          "ip.checksum.status": "2",
+          "ip.src": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.src_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.dst": "10.132.215.185",
+          "ip.addr": "10.132.215.185",
+          "ip.dst_host": "10.132.215.185",
+          "ip.host": "10.132.215.185",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "80",
+          "tcp.dstport": "61542",
+          "tcp.port": "80",
+          "tcp.port": "61542",
+          "tcp.stream": "1",
+          "tcp.stream.pnum": "6",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "733",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "3989140596",
+          "tcp.nxtseq": "734",
+          "tcp.ack": "470",
+          "tcp.ack_raw": "1050822333",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "506",
+          "tcp.window_size": "64768",
+          "tcp.window_size_scalefactor": "128",
+          "tcp.checksum": "0x1f7e",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:a7:8f:6a:15:5c:fd:97:d5",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:a7:8f:6a:15:5c:fd:97:d5",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "2811193877",
+              "tcp.options.timestamp.tsecr": "1560123349"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "12.550689000",
+            "tcp.time_delta": "0.001278000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.291998000",
+            "tcp.analysis.bytes_in_flight": "733",
+            "tcp.analysis.push_bytes_sent": "733"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "48:54:54:50:2f:31:2e:31:20:32:30:30:20:4f:4b:0d:0a:44:61:74:65:3a:20:4d:6f:6e:2c:20:31:39:20:4f:63:74:20:32:30:32:36:20:31:33:3a:35:38:3a:35:33:20:47:4d:54:0d:0a:53:65:72:76:65:72:3a:20:41:70:61:63:68:65:2f:32:2e:34:2e:36:32:20:28:41:6c:6d:61:4c:69:6e:75:78:29:20:4f:70:65:6e:53:53:4c:2f:33:2e:35:2e:35:20:6d:6f:64:5f:66:63:67:69:64:2f:32:2e:33:2e:39:20:6d:6f:64:5f:70:65:72:6c:2f:32:2e:30:2e:31:32:20:50:65:72:6c:2f:76:35:2e:33:32:2e:31:0d:0a:4c:61:73:74:2d:4d:6f:64:69:66:69:65:64:3a:20:54:75:65:2c:20:32:38:20:4f:63:74:20:32:30:32:35:20:30:35:3a:35:39:3a:30:31:20:47:4d:54:0d:0a:45:54:61:67:3a:20:22:31:37:33:2d:36:34:32:33:31:62:36:37:31:37:36:62:37:22:0d:0a:41:63:63:65:70:74:2d:52:61:6e:67:65:73:3a:20:62:79:74:65:73:0d:0a:43:6f:6e:74:65:6e:74:2d:4c:65:6e:67:74:68:3a:20:33:37:31:0d:0a:4b:65:65:70:2d:41:6c:69:76:65:3a:20:74:69:6d:65:6f:75:74:3d:35:2c:20:6d:61:78:3d:31:30:30:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:4b:65:65:70:2d:41:6c:69:76:65:0d:0a:43:6f:6e:74:65:6e:74:2d:54:79:70:65:3a:20:74:65:78:74:2f:68:74:6d:6c:3b:20:63:68:61:72:73:65:74:3d:55:54:46:2d:38:0d:0a:0d:0a:0a:3c:68:74:6d:6c:3e:0a:0a:43:6f:6e:67:72:61:74:75:6c:61:74:69:6f:6e:73:20:61:67:61:69:6e:21:20:20:4e:6f:77:20:79:6f:75:27:76:65:20:64:6f:77:6e:6c:6f:61:64:65:64:20:74:68:65:20:66:69:6c:65:20:6c:61:62:32:2d:32:2e:68:74:6d:6c:2e:20:3c:62:72:3e:0a:54:68:69:73:20:66:69:6c:65:27:73:20:6c:61:73:74:20:6d:6f:64:69:66:69:63:61:74:69:6f:6e:20:64:61:74:65:20:77:69:6c:6c:20:6e:6f:74:20:63:68:61:6e:67:65:2e:20:20:3c:70:3e:0a:54:68:75:73:20:20:69:66:20:79:6f:75:20:64:6f:77:6e:6c:6f:61:64:20:74:68:69:73:20:6d:75:6c:74:69:70:6c:65:20:74:69:6d:65:73:20:6f:6e:20:79:6f:75:72:20:62:72:6f:77:73:65:72:2c:20:61:20:63:6f:6d:70:6c:65:74:65:20:63:6f:70:79:20:3c:62:72:3e:0a:77:69:6c:6c:20:6f:6e:6c:79:20:62:65:20:73:65:6e:74:20:6f:6e:63:65:20:62:79:20:74:68:65:20:73:65:72:76:65:72:20:64:75:65:20:74:6f:20:74:68:65:20:69:6e:63:6c:75:73:69:6f:6e:20:6f:66:20:74:68:65:20:49:4e:2d:4d:4f:44:49:46:49:45:44:2d:53:49:4e:43:45:3c:62:72:3e:0a:66:69:65:6c:64:20:69:6e:20:79:6f:75:72:20:62:72:6f:77:73:65:72:27:73:20:48:54:54:50:20:47:45:54:20:72:65:71:75:65:73:74:20:74:6f:20:74:68:65:20:73:65:72:76:65:72:2e:0a:0a:3c:2f:68:74:6d:6c:3e:0a"
+        },
+        "http": {
+          "HTTP/1.1 200 OK\\r\\n": {
+            "http.response.version": "HTTP/1.1",
+            "http.response.code": "200",
+            "http.response.code.desc": "OK",
+            "http.response.phrase": "OK"
+          },
+          "http.date": "Mon, 19 Oct 2026 13:58:53 GMT",
+          "http.response.line": "Date: Mon, 19 Oct 2026 13:58:53 GMT\r\n",
+          "http.server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1",
+          "http.response.line": "Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n",
+          "http.last_modified": "Tue, 28 Oct 2025 05:59:01 GMT",
+          "http.response.line": "Last-Modified: Tue, 28 Oct 2025 05:59:01 GMT\r\n",
+          "http.response.line": "ETag: \"173-64231b67176b7\"\r\n",
+          "http.response.line": "Accept-Ranges: bytes\r\n",
+          "http.content_length_header": "371",
+          "http.content_length_header_tree": {
+            "http.content_length": "371"
+          },
+          "http.response.line": "Content-Length: 371\r\n",
+          "http.response.line": "Keep-Alive: timeout=5, max=100\r\n",
+          "http.connection": "Keep-Alive",
+          "http.response.line": "Connection: Keep-Alive\r\n",
+          "http.content_type": "text/html; charset=UTF-8",
+          "http.response.line": "Content-Type: text/html; charset=UTF-8\r\n",
+          "\\r\\n": "",
+          "http.response": "1",
+          "http.request_in": "19",
+          "http.time": "0.293046000",
+          "http.request.uri": "/wireshark-labs/HTTP-wireshark-file2.html",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html",
+          "http.file_data": "0a:3c:68:74:6d:6c:3e:0a:0a:43:6f:6e:67:72:61:74:75:6c:61:74:69:6f:6e:73:20:61:67:61:69:6e:21:20:20:4e:6f:77:20:79:6f:75:27:76:65:20:64:6f:77:6e:6c:6f:61:64:65:64:20:74:68:65:20:66:69:6c:65:20:6c:61:62:32:2d:32:2e:68:74:6d:6c:2e:20:3c:62:72:3e:0a:54:68:69:73:20:66:69:6c:65:27:73:20:6c:61:73:74:20:6d:6f:64:69:66:69:63:61:74:69:6f:6e:20:64:61:74:65:20:77:69:6c:6c:20:6e:6f:74:20:63:68:61:6e:67:65:2e:20:20:3c:70:3e:0a:54:68:75:73:20:20:69:66:20:79:6f:75:20:64:6f:77:6e:6c:6f:61:64:20:74:68:69:73:20:6d:75:6c:74:69:70:6c:65:20:74:69:6d:65:73:20:6f:6e:20:79:6f:75:72:20:62:72:6f:77:73:65:72:2c:20:61:20:63:6f:6d:70:6c:65:74:65:20:63:6f:70:79:20:3c:62:72:3e:0a:77:69:6c:6c:20:6f:6e:6c:79:20:62:65:20:73:65:6e:74:20:6f:6e:63:65:20:62:79:20:74:68:65:20:73:65:72:76:65:72:20:64:75:65:20:74:6f:20:74:68:65:20:69:6e:63:6c:75:73:69:6f:6e:20:6f:66:20:74:68:65:20:49:4e:2d:4d:4f:44:49:46:49:45:44:2d:53:49:4e:43:45:3c:62:72:3e:0a:66:69:65:6c:64:20:69:6e:20:79:6f:75:72:20:62:72:6f:77:73:65:72:27:73:20:48:54:54:50:20:47:45:54:20:72:65:71:75:65:73:74:20:74:6f:20:74:68:65:20:73:65:72:76:65:72:2e:0a:0a:3c:2f:68:74:6d:6c:3e:0a"
+        },
+        "data-text-lines": {
+          "\\n": "",
+          "<html>\\n": "",
+          "\\n": "",
+          "Congratulations again!  Now you've downloaded the file lab2-2.html. <br>\\n": "",
+          "This file's last modification date will not change.  <p>\\n": "",
+          "Thus  if you download this multiple times on your browser, a complete copy <br>\\n": "",
+          "will only be sent once by the server due to the inclusion of the IN-MODIFIED-SINCE<br>\\n": "",
+          "field in your browser's HTTP GET request to the server.\\n": "",
+          "\\n": "",
+          "<\/html>\\n": ""
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-19",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "en0"
+          },
+          "frame.packet_flags": "0x00000002",
+          "frame.packet_flags_tree": {
+            "frame.packet_flags_direction": "0x00000002",
+            "frame.packet_flags_reception_type": "0",
+            "frame.packet_flags_fcs_length": "0",
+            "frame.packet_flags_reserved": "0",
+            "frame.packet_flags_crc_error": "0",
+            "frame.packet_flags_packet_too_error": "0",
+            "frame.packet_flags_packet_too_short_error": "0",
+            "frame.packet_flags_wrong_inter_frame_gap_error": "0",
+            "frame.packet_flags_unaligned_frame_error": "0",
+            "frame.packet_flags_start_frame_delimiter_error": "0",
+            "frame.packet_flags_preamble_error": "0",
+            "frame.packet_flags_symbol_error": "0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-19T13:59:24.259555000Z",
+          "frame.time_utc": "2026-10-19T13:59:24.259555000Z",
+          "frame.time_epoch": "2026-10-19T13:59:24.259555000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "16.815028000",
+          "frame.time_delta_displayed": "30.749293000",
+          "frame.time_relative": "43.515612000",
+          "frame.number": "33",
+          "frame.len": "647",
+          "frame.cap_len": "647",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.p2p_dir": "0",
+          "frame.darwin.process_info": {
+            "frame.darwin.process_info.pid": "24906",
+            "frame.darwin.process_info.pname": "Google Chrome fo"
+          },
+          "frame.darwin": "1",
+          "frame.darwin_tree": {
+            "frame.darwin.flags": "0x00000008",
+            "frame.darwin.flags_tree": {
+              "frame.darwin.flags.wk": "0",
+              "frame.darwin.flags.ch": "0",
+              "frame.darwin.flags.so": "1",
+              "frame.darwin.flags.re": "0",
+              "frame.darwin.flags.ka": "0",
+              "frame.darwin.flags.nf": "0"
+            },
+            "frame.darwin.sc": "0",
+            "frame.darwin.flow_id": "0x9dee8744"
+          },
+          "frame.protocols": "darwin:eth:ethertype:ip:tcp:http",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "74:08:aa:99:5c:16",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "RuijieNetwor_99:5c:16",
+            "eth.dst.oui": "7604394",
+            "eth.dst.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "74:08:aa:99:5c:16",
+            "eth.addr_resolved": "RuijieNetwor_99:5c:16",
+            "eth.addr.oui": "7604394",
+            "eth.addr.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "fe:78:88:a1:99:18",
+          "eth.src_tree": {
+            "eth.src_resolved": "fe:78:88:a1:99:18",
+            "eth.src.oui": "16677000",
+            "eth.src.lg": "1",
+            "eth.src.ig": "0",
+            "eth.addr": "fe:78:88:a1:99:18",
+            "eth.addr_resolved": "fe:78:88:a1:99:18",
+            "eth.addr.oui": "16677000",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x02",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "2"
+          },
+          "ip.len": "633",
+          "ip.id": "0x0000",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0xe0bb",
+          "ip.checksum.status": "2",
+          "ip.src": "10.132.215.185",
+          "ip.addr": "10.132.215.185",
+          "ip.src_host": "10.132.215.185",
+          "ip.host": "10.132.215.185",
+          "ip.dst": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.dst_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "61608",
+          "tcp.dstport": "80",
+          "tcp.port": "61608",
+          "tcp.port": "80",
+          "tcp.stream": "2",
+          "tcp.stream.pnum": "4",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "581",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "3019424034",
+          "tcp.nxtseq": "582",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "4123379066",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "2053",
+          "tcp.window_size": "131392",
+          "tcp.window_size_scalefactor": "64",
+          "tcp.checksum": "0x64b4",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:bc:02:49:ca:a7:8f:a0:81",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:bc:02:49:ca:a7:8f:a0:81",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "3154266570",
+              "tcp.options.timestamp.tsecr": "2811207809"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "17.108173000",
+            "tcp.time_delta": "16.815028000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.293145000",
+            "tcp.analysis.bytes_in_flight": "581",
+            "tcp.analysis.push_bytes_sent": "581"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "47:45:54:20:2f:77:69:72:65:73:68:61:72:6b:2d:6c:61:62:73:2f:48:54:54:50:2d:77:69:72:65:73:68:61:72:6b:2d:66:69:6c:65:32:2e:68:74:6d:6c:20:48:54:54:50:2f:31:2e:31:0d:0a:48:6f:73:74:3a:20:67:61:69:61:2e:63:73:2e:75:6d:61:73:73:2e:65:64:75:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:6b:65:65:70:2d:61:6c:69:76:65:0d:0a:43:61:63:68:65:2d:43:6f:6e:74:72:6f:6c:3a:20:6d:61:78:2d:61:67:65:3d:30:0d:0a:55:70:67:72:61:64:65:2d:49:6e:73:65:63:75:72:65:2d:52:65:71:75:65:73:74:73:3a:20:31:0d:0a:55:73:65:72:2d:41:67:65:6e:74:3a:20:4d:6f:7a:69:6c:6c:61:2f:35:2e:30:20:28:4d:61:63:69:6e:74:6f:73:68:3b:20:49:6e:74:65:6c:20:4d:61:63:20:4f:53:20:58:20:31:30:5f:31:35:5f:37:29:20:41:70:70:6c:65:57:65:62:4b:69:74:2f:35:33:37:2e:33:36:20:28:4b:48:54:4d:4c:2c:20:6c:69:6b:65:20:47:65:63:6b:6f:29:20:43:68:72:6f:6d:65:2f:31:35:33:2e:30:2e:30:2e:30:20:53:61:66:61:72:69:2f:35:33:37:2e:33:36:0d:0a:41:63:63:65:70:74:2d:4c:61:6e:67:75:61:67:65:3a:20:7a:68:2d:43:4e:0d:0a:41:63:63:65:70:74:3a:20:74:65:78:74:2f:68:74:6d:6c:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:68:74:6d:6c:2b:78:6d:6c:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:78:6d:6c:3b:71:3d:30:2e:39:2c:69:6d:61:67:65:2f:61:76:69:66:2c:69:6d:61:67:65:2f:77:65:62:70:2c:69:6d:61:67:65:2f:61:70:6e:67:2c:2a:2f:2a:3b:71:3d:30:2e:38:2c:61:70:70:6c:69:63:61:74:69:6f:6e:2f:73:69:67:6e:65:64:2d:65:78:63:68:61:6e:67:65:3b:76:3d:62:33:3b:71:3d:30:2e:37:0d:0a:41:63:63:65:70:74:2d:45:6e:63:6f:64:69:6e:67:3a:20:67:7a:69:70:2c:20:64:65:66:6c:61:74:65:0d:0a:49:66:2d:4e:6f:6e:65:2d:4d:61:74:63:68:3a:20:22:31:37:33:2d:36:34:32:33:31:62:36:37:31:37:36:62:37:22:0d:0a:49:66:2d:4d:6f:64:69:66:69:65:64:2d:53:69:6e:63:65:3a:20:54:75:65:2c:20:32:38:20:4f:63:74:20:32:30:32:35:20:30:35:3a:35:39:3a:30:31:20:47:4d:54:0d:0a:0d:0a"
+        },
+        "http": {
+          "GET /wireshark-labs/HTTP-wireshark-file2.html HTTP/1.1\\r\\n": {
+            "http.request.method": "GET",
+            "http.request.uri": "/wireshark-labs/HTTP-wireshark-file2.html",
+            "http.request.version": "HTTP/1.1"
+          },
+          "http.host": "gaia.cs.umass.edu",
+          "http.request.line": "Host: gaia.cs.umass.edu\r\n",
+          "http.connection": "keep-alive",
+          "http.request.line": "Connection: keep-alive\r\n",
+          "http.cache_control": "max-age=0",
+          "http.request.line": "Cache-Control: max-age=0\r\n",
+          "http.request.line": "Upgrade-Insecure-Requests: 1\r\n",
+          "http.user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "http.request.line": "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\r\n",
+          "http.accept_language": "zh-CN",
+          "http.request.line": "Accept-Language: zh-CN\r\n",
+          "http.accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "http.request.line": "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n",
+          "http.accept_encoding": "gzip, deflate",
+          "http.request.line": "Accept-Encoding: gzip, deflate\r\n",
+          "http.request.line": "If-None-Match: \"173-64231b67176b7\"\r\n",
+          "http.request.line": "If-Modified-Since: Tue, 28 Oct 2025 05:59:01 GMT\r\n",
+          "\\r\\n": "",
+          "http.request": "1",
+          "http.response_in": "35",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2026-10-19",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "en0"
+          },
+          "frame.packet_flags": "0x00000001",
+          "frame.packet_flags_tree": {
+            "frame.packet_flags_direction": "0x00000001",
+            "frame.packet_flags_reception_type": "0",
+            "frame.packet_flags_fcs_length": "0",
+            "frame.packet_flags_reserved": "0",
+            "frame.packet_flags_crc_error": "0",
+            "frame.packet_flags_packet_too_error": "0",
+            "frame.packet_flags_packet_too_short_error": "0",
+            "frame.packet_flags_wrong_inter_frame_gap_error": "0",
+            "frame.packet_flags_unaligned_frame_error": "0",
+            "frame.packet_flags_start_frame_delimiter_error": "0",
+            "frame.packet_flags_preamble_error": "0",
+            "frame.packet_flags_symbol_error": "0"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "2026-10-19T13:59:24.553419000Z",
+          "frame.time_utc": "2026-10-19T13:59:24.553419000Z",
+          "frame.time_epoch": "2026-10-19T13:59:24.553419000Z",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.001193000",
+          "frame.time_delta_displayed": "0.293864000",
+          "frame.time_relative": "43.809476000",
+          "frame.number": "35",
+          "frame.len": "377",
+          "frame.cap_len": "377",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.p2p_dir": "1",
+          "frame.darwin.process_info": {
+            "frame.darwin.process_info.pid": "24906",
+            "frame.darwin.process_info.pname": "Google Chrome fo"
+          },
+          "frame.darwin": "1",
+          "frame.darwin_tree": {
+            "frame.darwin.flags": "0x00000008",
+            "frame.darwin.flags_tree": {
+              "frame.darwin.flags.wk": "0",
+              "frame.darwin.flags.ch": "0",
+              "frame.darwin.flags.so": "1",
+              "frame.darwin.flags.re": "0",
+              "frame.darwin.flags.ka": "0",
+              "frame.darwin.flags.nf": "0"
+            },
+            "frame.darwin.sc": "0",
+            "frame.darwin.flow_id": "0x9dee8744"
+          },
+          "frame.protocols": "darwin:eth:ethertype:ip:tcp:http",
+          "frame.encoding": "0"
+        },
+        "eth": {
+          "eth.dst": "fe:78:88:a1:99:18",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "fe:78:88:a1:99:18",
+            "eth.dst.oui": "16677000",
+            "eth.dst.lg": "1",
+            "eth.dst.ig": "0",
+            "eth.addr": "fe:78:88:a1:99:18",
+            "eth.addr_resolved": "fe:78:88:a1:99:18",
+            "eth.addr.oui": "16677000",
+            "eth.lg": "1",
+            "eth.ig": "0"
+          },
+          "eth.src": "74:08:aa:99:5c:16",
+          "eth.src_tree": {
+            "eth.src_resolved": "RuijieNetwor_99:5c:16",
+            "eth.src.oui": "7604394",
+            "eth.src.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "74:08:aa:99:5c:16",
+            "eth.addr_resolved": "RuijieNetwor_99:5c:16",
+            "eth.addr.oui": "7604394",
+            "eth.addr.oui_resolved": "Ruijie Networks Co.,LTD",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x02",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "2"
+          },
+          "ip.len": "363",
+          "ip.id": "0x9236",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "27",
+          "ip.proto": "6",
+          "ip.checksum": "0x7493",
+          "ip.checksum.status": "2",
+          "ip.src": "128.119.245.12",
+          "ip.addr": "128.119.245.12",
+          "ip.src_host": "128.119.245.12",
+          "ip.host": "128.119.245.12",
+          "ip.dst": "10.132.215.185",
+          "ip.addr": "10.132.215.185",
+          "ip.dst_host": "10.132.215.185",
+          "ip.host": "10.132.215.185",
+          "ip.stream": "0"
+        },
+        "tcp": {
+          "tcp.srcport": "80",
+          "tcp.dstport": "61608",
+          "tcp.port": "80",
+          "tcp.port": "61608",
+          "tcp.stream": "2",
+          "tcp.stream.pnum": "6",
+          "tcp.completeness": "31",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "1",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "·FDASS"
+          },
+          "tcp.len": "311",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "4123379066",
+          "tcp.nxtseq": "312",
+          "tcp.ack": "582",
+          "tcp.ack_raw": "3019424615",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "505",
+          "tcp.window_size": "64640",
+          "tcp.window_size_scalefactor": "128",
+          "tcp.checksum": "0xad88",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:a7:8f:e3:4c:bc:02:49:ca",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:a7:8f:e3:4c:bc:02:49:ca",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "2811224908",
+              "tcp.options.timestamp.tsecr": "3154266570"
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative": "17.402037000",
+            "tcp.time_delta": "0.001193000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.293145000",
+            "tcp.analysis.bytes_in_flight": "311",
+            "tcp.analysis.push_bytes_sent": "311"
+          },
+          "tcp.stream.client.contiguity_count": "1",
+          "tcp.stream.server.contiguity_count": "1",
+          "tcp.payload": "48:54:54:50:2f:31:2e:31:20:33:30:34:20:4e:6f:74:20:4d:6f:64:69:66:69:65:64:0d:0a:44:61:74:65:3a:20:4d:6f:6e:2c:20:31:39:20:4f:63:74:20:32:30:32:36:20:31:33:3a:35:39:3a:32:34:20:47:4d:54:0d:0a:53:65:72:76:65:72:3a:20:41:70:61:63:68:65:2f:32:2e:34:2e:36:32:20:28:41:6c:6d:61:4c:69:6e:75:78:29:20:4f:70:65:6e:53:53:4c:2f:33:2e:35:2e:35:20:6d:6f:64:5f:66:63:67:69:64:2f:32:2e:33:2e:39:20:6d:6f:64:5f:70:65:72:6c:2f:32:2e:30:2e:31:32:20:50:65:72:6c:2f:76:35:2e:33:32:2e:31:0d:0a:4c:61:73:74:2d:4d:6f:64:69:66:69:65:64:3a:20:54:75:65:2c:20:32:38:20:4f:63:74:20:32:30:32:35:20:30:35:3a:35:39:3a:30:31:20:47:4d:54:0d:0a:45:54:61:67:3a:20:22:31:37:33:2d:36:34:32:33:31:62:36:37:31:37:36:62:37:22:0d:0a:41:63:63:65:70:74:2d:52:61:6e:67:65:73:3a:20:62:79:74:65:73:0d:0a:4b:65:65:70:2d:41:6c:69:76:65:3a:20:74:69:6d:65:6f:75:74:3d:35:2c:20:6d:61:78:3d:31:30:30:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:4b:65:65:70:2d:41:6c:69:76:65:0d:0a:0d:0a"
+        },
+        "http": {
+          "HTTP/1.1 304 Not Modified\\r\\n": {
+            "http.response.version": "HTTP/1.1",
+            "http.response.code": "304",
+            "http.response.code.desc": "Not Modified",
+            "http.response.phrase": "Not Modified"
+          },
+          "http.date": "Mon, 19 Oct 2026 13:59:24 GMT",
+          "http.response.line": "Date: Mon, 19 Oct 2026 13:59:24 GMT\r\n",
+          "http.server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1",
+          "http.response.line": "Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n",
+          "http.last_modified": "Tue, 28 Oct 2025 05:59:01 GMT",
+          "http.response.line": "Last-Modified: Tue, 28 Oct 2025 05:59:01 GMT\r\n",
+          "http.response.line": "ETag: \"173-64231b67176b7\"\r\n",
+          "http.response.line": "Accept-Ranges: bytes\r\n",
+          "http.response.line": "Keep-Alive: timeout=5, max=100\r\n",
+          "http.connection": "Keep-Alive",
+          "http.response.line": "Connection: Keep-Alive\r\n",
+          "\\r\\n": "",
+          "http.response": "1",
+          "http.request_in": "33",
+          "http.time": "0.293864000",
+          "http.request.uri": "/wireshark-labs/HTTP-wireshark-file2.html",
+          "http.request.full_uri": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html"
+        }
+      }
+    }
+  }
+]

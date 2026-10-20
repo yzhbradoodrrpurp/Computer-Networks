@@ -1,0 +1,8 @@
+### Result
+"{\"log\":[{\"action\":\"basic\",\"time\":\"2026-10-19T14:11:04.990Z\"},{\"action\":\"first\",\"time\":\"2026-10-19T14:11:05.822Z\"},{\"action\":\"second\",\"time\":\"2026-10-19T14:11:06.150Z\"},{\"action\":\"cacheObservation\",\"cache\":[{\"name\":\"http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html\",\"type\":\"navigate\",\"transferSize\":0,\"encodedBodySize\":371,\"decodedBodySize\":371}]},{\"action\":\"reload\",\"time\":\"2026-10-19T14:11:06.459Z\"},{\"action\":\"finished\",\"time\":\"2026-10-19T14:11:07.071Z\"}],\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\"}"
+### Ran Playwright code
+```js
+await (async (page) => { const log=[]; const root="http://gaia.cs.umass.edu/wireshark-labs/"; log.push({action:"basic",time:new Date().toISOString()}); await page.goto(root+"HTTP-wireshark-file1.html"); log.push({action:"first",time:new Date().toISOString()}); await page.goto(root+"HTTP-wireshark-file2.html"); log.push({action:"second",time:new Date().toISOString()}); await page.goto(root+"HTTP-wireshark-file2.html"); const cache=await page.evaluate(()=>performance.getEntriesByType("navigation").map(x=>({name:x.name,type:x.type,transferSize:x.transferSize,encodedBodySize:x.encodedBodySize,decodedBodySize:x.decodedBodySize}))); log.push({action:"cacheObservation",cache}); log.push({action:"reload",time:new Date().toISOString()}); await page.reload(); log.push({action:"finished",time:new Date().toISOString()}); return JSON.stringify({log,userAgent:await page.evaluate(()=>navigator.userAgent)}); })(page);
+```
+### Page
+- Page URL: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html

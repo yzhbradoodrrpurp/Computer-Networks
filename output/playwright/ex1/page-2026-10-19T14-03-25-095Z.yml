@@ -1,0 +1,12 @@
+- generic [active] [ref=f4e1]:
+  - heading "计算机网络课程设计——实验1" [level=1] [ref=f4e2]
+  - heading "Web服务器搭建与HTTP协议分析" [level=2] [ref=f4e3]
+  - generic [ref=f4e4]:
+    - term [ref=f4e5]: 姓名
+    - definition [ref=f4e6]: 易治行
+    - term [ref=f4e7]: 学号
+    - definition [ref=f4e8]: "2023141220023"
+    - term [ref=f4e9]: 班级
+    - definition [ref=f4e10]: 102班
+  - paragraph [ref=f4e11]: 本实验使用 Apache HTTP Server 搭建 Web 服务器，配置网站根目录、默认首页和监听端口；使用 Wireshark 分析浏览器与服务器之间的 HTTP 请求、响应及 Conditional GET 缓存验证过程。
+  - contentinfo [ref=f4e12]: 通过 HTTP 访问本页面，验证 Web 服务器的静态资源服务。

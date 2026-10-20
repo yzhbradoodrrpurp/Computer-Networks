@@ -1,0 +1,37 @@
+{
+  "log": [
+    {
+      "action": "basic",
+      "time": "2026-10-19T14:11:04.990Z"
+    },
+    {
+      "action": "first",
+      "time": "2026-10-19T14:11:05.822Z"
+    },
+    {
+      "action": "second",
+      "time": "2026-10-19T14:11:06.150Z"
+    },
+    {
+      "action": "cacheObservation",
+      "cache": [
+        {
+          "name": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html",
+          "type": "navigate",
+          "transferSize": 0,
+          "encodedBodySize": 371,
+          "decodedBodySize": 371
+        }
+      ]
+    },
+    {
+      "action": "reload",
+      "time": "2026-10-19T14:11:06.459Z"
+    },
+    {
+      "action": "finished",
+      "time": "2026-10-19T14:11:07.071Z"
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+}

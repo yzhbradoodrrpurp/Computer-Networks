@@ -1,0 +1,1 @@
+{"browser":{"browserName":"chromium","launchOptions":{"executablePath":"/Users/yzhbradoodrrpurp/Library/Caches/ms-playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing","args":["--no-proxy-server"]},"contextOptions":{"locale":"zh-CN","viewport":{"width":1280,"height":850}}},"outputDir":"output/playwright/ex1"}

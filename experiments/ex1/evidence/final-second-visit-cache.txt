@@ -1,0 +1,9 @@
+[
+  {
+    "name": "http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html",
+    "type": "navigate",
+    "transferSize": 0,
+    "encodedBodySize": 371,
+    "decodedBodySize": 371
+  }
+]

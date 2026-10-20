@@ -1,0 +1,123 @@
+
+===================================================================
+Follow: tcp,ascii
+Filter: tcp.stream eq 0
+Node 0: 10.132.215.185:62842
+Node 1: 128.119.245.12:80
+469
+GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1
+Host: gaia.cs.umass.edu
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept-Language: zh-CN
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+
+
+	489
+HTTP/1.1 200 OK
+Date: Mon, 19 Oct 2026 14:11:05 GMT
+Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1
+Last-Modified: Tue, 28 Oct 2025 05:59:01 GMT
+ETag: "80-64231b6717e87"
+Accept-Ranges: bytes
+Content-Length: 128
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+<html>
+Congratulations.  You've downloaded the file 
+http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html!
+</html>
+
+469
+GET /wireshark-labs/HTTP-wireshark-file2.html HTTP/1.1
+Host: gaia.cs.umass.edu
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept-Language: zh-CN
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+
+
+	732
+HTTP/1.1 200 OK
+Date: Mon, 19 Oct 2026 14:11:06 GMT
+Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1
+Last-Modified: Tue, 28 Oct 2025 05:59:01 GMT
+ETag: "173-64231b67176b7"
+Accept-Ranges: bytes
+Content-Length: 371
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+
+<html>
+
+Congratulations again!  Now you've downloaded the file lab2-2.html. <br>
+This file's last modification date will not change.  <p>
+Thus  if you download this multiple times on your browser, a complete copy <br>
+will only be sent once by the server due to the inclusion of the IN-MODIFIED-SINCE<br>
+field in your browser's HTTP GET request to the server.
+
+</html>
+
+415
+GET /favicon.ico HTTP/1.1
+Host: gaia.cs.umass.edu
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept-Language: zh-CN
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html
+Accept-Encoding: gzip, deflate
+
+
+	582
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 19 Oct 2026 14:11:06 GMT
+Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1
+Location: https://gaia.cs.umass.edu//favicon.ico
+Content-Length: 246
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://gaia.cs.umass.edu//favicon.ico">here</a>.</p>
+</body></html>
+
+581
+GET /wireshark-labs/HTTP-wireshark-file2.html HTTP/1.1
+Host: gaia.cs.umass.edu
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept-Language: zh-CN
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+If-None-Match: "173-64231b67176b7"
+If-Modified-Since: Tue, 28 Oct 2025 05:59:01 GMT
+
+
+	310
+HTTP/1.1 304 Not Modified
+Date: Mon, 19 Oct 2026 14:11:07 GMT
+Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1
+Last-Modified: Tue, 28 Oct 2025 05:59:01 GMT
+ETag: "173-64231b67176b7"
+Accept-Ranges: bytes
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+
+
+===================================================================

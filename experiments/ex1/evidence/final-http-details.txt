@@ -1,0 +1,1297 @@
+Frame 5: Packet, 535 bytes on wire (4280 bits), 535 bytes captured (4280 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2026 22:11:05.343977000 CST
+    UTC Arrival Time: Oct 19, 2026 14:11:05.343977000 UTC
+    Epoch Arrival Time: 1792419065.343977000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 3.277000 milliseconds]
+    [Time since reference or first frame: 295.868000 milliseconds]
+    Frame Number: 5
+    Frame Length: 535 bytes (4280 bits)
+    Capture Length: 535 bytes (4280 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    Character encoding: ASCII (0)
+Ethernet II, Src: fe:78:88:a1:99:18 (fe:78:88:a1:99:18), Dst: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+    Destination: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 10.132.215.185, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 521
+    Identification: 0x0000 (0)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0xe12b [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.132.215.185
+    Destination Address: 128.119.245.12
+    [Stream index: 0]
+Transmission Control Protocol, Src Port: 62842, Dst Port: 80, Seq: 1, Ack: 1, Len: 469
+    Source Port: 62842
+    Destination Port: 80
+    [Stream index: 0]
+    [Stream Packet Number: 4]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 469]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 851620199
+    [Next Sequence Number: 470    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 4265943746
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 2053
+    [Calculated window size: 131392]
+    [Window size scaling factor: 64]
+    Checksum: 0xf690 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 1645951323, TSecr 2811925692
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 1645951323
+            Timestamp echo reply: 2811925692
+    [Timestamps]
+        [Time since first frame in this TCP stream: 295.868000 milliseconds]
+        [Time since previous frame in this TCP stream: 3.277000 milliseconds]
+    [SEQ/ACK analysis]
+        [iRTT: 292.591000 milliseconds]
+        [Bytes in flight: 469]
+        [Bytes sent since last PSH flag: 469]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (469 bytes)
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file1.html HTTP/1.1\r\n
+        Request Method: GET
+        Request URI: /wireshark-labs/HTTP-wireshark-file1.html
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\r\n
+    Accept-Language: zh-CN\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    \r\n
+    [Response in frame: 9]
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html]
+
+Frame 9: Packet, 555 bytes on wire (4440 bits), 555 bytes captured (4440 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2026 22:11:05.637440000 CST
+    UTC Arrival Time: Oct 19, 2026 14:11:05.637440000 UTC
+    Epoch Arrival Time: 1792419065.637440000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 1.269000 milliseconds]
+    [Time delta from previous displayed frame: 293.463000 milliseconds]
+    [Time since reference or first frame: 589.331000 milliseconds]
+    Frame Number: 9
+    Frame Length: 555 bytes (4440 bits)
+    Capture Length: 555 bytes (4440 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    Character encoding: ASCII (0)
+Ethernet II, Src: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16), Dst: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+    Destination: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 10.132.215.185
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 541
+    Identification: 0x21a3 (8611)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 28
+    Protocol: TCP (6)
+    Header Checksum: 0xe374 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 10.132.215.185
+    [Stream index: 0]
+Transmission Control Protocol, Src Port: 80, Dst Port: 62842, Seq: 1, Ack: 470, Len: 489
+    Source Port: 80
+    Destination Port: 62842
+    [Stream index: 0]
+    [Stream Packet Number: 6]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 489]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 4265943746
+    [Next Sequence Number: 490    (relative sequence number)]
+    Acknowledgment Number: 470    (relative ack number)
+    Acknowledgment number (raw): 851620668
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 506
+    [Calculated window size: 64768]
+    [Window size scaling factor: 128]
+    Checksum: 0x7622 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 2811925988, TSecr 1645951323
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 2811925988
+            Timestamp echo reply: 1645951323
+    [Timestamps]
+        [Time since first frame in this TCP stream: 589.331000 milliseconds]
+        [Time since previous frame in this TCP stream: 1.269000 milliseconds]
+    [SEQ/ACK analysis]
+        [iRTT: 292.591000 milliseconds]
+        [Bytes in flight: 489]
+        [Bytes sent since last PSH flag: 489]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (489 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Mon, 19 Oct 2026 14:11:05 GMT\r\n
+    Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n
+    Last-Modified: Tue, 28 Oct 2025 05:59:01 GMT\r\n
+    ETag: "80-64231b6717e87"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 128\r\n
+        [Content length: 128]
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+    [Request in frame: 5]
+    [Time since request: 293.463000 milliseconds]
+    [Request URI: /wireshark-labs/HTTP-wireshark-file1.html]
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html]
+    File Data: 128 bytes
+Line-based text data: text/html (4 lines)
+    <html>\n
+    Congratulations.  You've downloaded the file \n
+    http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html!\n
+    </html>\n
+
+Frame 11: Packet, 535 bytes on wire (4280 bits), 535 bytes captured (4280 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2026 22:11:05.844031000 CST
+    UTC Arrival Time: Oct 19, 2026 14:11:05.844031000 UTC
+    Epoch Arrival Time: 1792419065.844031000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 206.488000 milliseconds]
+    [Time delta from previous displayed frame: 206.591000 milliseconds]
+    [Time since reference or first frame: 795.922000 milliseconds]
+    Frame Number: 11
+    Frame Length: 535 bytes (4280 bits)
+    Capture Length: 535 bytes (4280 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    Character encoding: ASCII (0)
+Ethernet II, Src: fe:78:88:a1:99:18 (fe:78:88:a1:99:18), Dst: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+    Destination: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 10.132.215.185, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 521
+    Identification: 0x0000 (0)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0xe12b [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.132.215.185
+    Destination Address: 128.119.245.12
+    [Stream index: 0]
+Transmission Control Protocol, Src Port: 62842, Dst Port: 80, Seq: 470, Ack: 490, Len: 469
+    Source Port: 62842
+    Destination Port: 80
+    [Stream index: 0]
+    [Stream Packet Number: 8]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 469]
+    Sequence Number: 470    (relative sequence number)
+    Sequence Number (raw): 851620668
+    [Next Sequence Number: 939    (relative sequence number)]
+    Acknowledgment Number: 490    (relative ack number)
+    Acknowledgment number (raw): 4265944235
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 2048
+    [Calculated window size: 131072]
+    [Window size scaling factor: 64]
+    Checksum: 0xefba [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 1645951823, TSecr 2811925988
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 1645951823
+            Timestamp echo reply: 2811925988
+    [Timestamps]
+        [Time since first frame in this TCP stream: 795.922000 milliseconds]
+        [Time since previous frame in this TCP stream: 206.488000 milliseconds]
+    [SEQ/ACK analysis]
+        [iRTT: 292.591000 milliseconds]
+        [Bytes in flight: 469]
+        [Bytes sent since last PSH flag: 469]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (469 bytes)
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file2.html HTTP/1.1\r\n
+        Request Method: GET
+        Request URI: /wireshark-labs/HTTP-wireshark-file2.html
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\r\n
+    Accept-Language: zh-CN\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    \r\n
+    [Response in frame: 13]
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html]
+
+Frame 12: Packet, 481 bytes on wire (3848 bits), 481 bytes captured (3848 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2026 22:11:05.850867000 CST
+    UTC Arrival Time: Oct 19, 2026 14:11:05.850867000 UTC
+    Epoch Arrival Time: 1792419065.850867000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 6.836000 milliseconds]
+    [Time delta from previous displayed frame: 6.836000 milliseconds]
+    [Time since reference or first frame: 802.758000 milliseconds]
+    Frame Number: 12
+    Frame Length: 481 bytes (3848 bits)
+    Capture Length: 481 bytes (3848 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    Character encoding: ASCII (0)
+Ethernet II, Src: fe:78:88:a1:99:18 (fe:78:88:a1:99:18), Dst: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+    Destination: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 10.132.215.185, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 467
+    Identification: 0x0000 (0)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0xe161 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.132.215.185
+    Destination Address: 128.119.245.12
+    [Stream index: 0]
+Transmission Control Protocol, Src Port: 62843, Dst Port: 80, Seq: 1, Ack: 1, Len: 415
+    Source Port: 62843
+    Destination Port: 80
+    [Stream index: 1]
+    [Stream Packet Number: 4]
+    [Conversation completeness: Complete, WITH_DATA (63)]
+        ..1. .... = RST: Present
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: RFDASS]
+    [TCP Segment Len: 415]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 4154283993
+    [Next Sequence Number: 416    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 703341337
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 2053
+    [Calculated window size: 131392]
+    [Window size scaling factor: 64]
+    Checksum: 0xd4e8 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 3919303230, TSecr 2811925936
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 3919303230
+            Timestamp echo reply: 2811925936
+    [Timestamps]
+        [Time since first frame in this TCP stream: 558.822000 milliseconds]
+        [Time since previous frame in this TCP stream: 265.499000 milliseconds]
+    [SEQ/ACK analysis]
+        [iRTT: 293.323000 milliseconds]
+        [Bytes in flight: 415]
+        [Bytes sent since last PSH flag: 415]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (415 bytes)
+Hypertext Transfer Protocol
+    GET /favicon.ico HTTP/1.1\r\n
+        Request Method: GET
+        Request URI: /favicon.ico
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\r\n
+    Accept-Language: zh-CN\r\n
+    Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    \r\n
+    [Response in frame: 17]
+    [Full request URI: http://gaia.cs.umass.edu/favicon.ico]
+
+Frame 13: Packet, 798 bytes on wire (6384 bits), 798 bytes captured (6384 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2026 22:11:06.137492000 CST
+    UTC Arrival Time: Oct 19, 2026 14:11:06.137492000 UTC
+    Epoch Arrival Time: 1792419066.137492000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 286.625000 milliseconds]
+    [Time delta from previous displayed frame: 286.625000 milliseconds]
+    [Time since reference or first frame: 1.089383000 seconds]
+    Frame Number: 13
+    Frame Length: 798 bytes (6384 bits)
+    Capture Length: 798 bytes (6384 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    Character encoding: ASCII (0)
+Ethernet II, Src: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16), Dst: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+    Destination: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 10.132.215.185
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 784
+    Identification: 0x21a4 (8612)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 28
+    Protocol: TCP (6)
+    Header Checksum: 0xe280 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 10.132.215.185
+    [Stream index: 0]
+Transmission Control Protocol, Src Port: 80, Dst Port: 62842, Seq: 490, Ack: 939, Len: 732
+    Source Port: 80
+    Destination Port: 62842
+    [Stream index: 0]
+    [Stream Packet Number: 9]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 732]
+    Sequence Number: 490    (relative sequence number)
+    Sequence Number (raw): 4265944235
+    [Next Sequence Number: 1222    (relative sequence number)]
+    Acknowledgment Number: 939    (relative ack number)
+    Acknowledgment number (raw): 851621137
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 503
+    [Calculated window size: 64384]
+    [Window size scaling factor: 128]
+    Checksum: 0x2efa [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 2811926488, TSecr 1645951823
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 2811926488
+            Timestamp echo reply: 1645951823
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.089383000 seconds]
+        [Time since previous frame in this TCP stream: 293.461000 milliseconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 11]
+        [The RTT to ACK the segment was: 293.461000 milliseconds]
+        [iRTT: 292.591000 milliseconds]
+        [Bytes in flight: 732]
+        [Bytes sent since last PSH flag: 732]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (732 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Mon, 19 Oct 2026 14:11:06 GMT\r\n
+    Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n
+    Last-Modified: Tue, 28 Oct 2025 05:59:01 GMT\r\n
+    ETag: "173-64231b67176b7"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 371\r\n
+        [Content length: 371]
+    Keep-Alive: timeout=5, max=99\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+    [Request in frame: 11]
+    [Time since request: 293.461000 milliseconds]
+    [Request URI: /wireshark-labs/HTTP-wireshark-file2.html]
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html]
+    File Data: 371 bytes
+Line-based text data: text/html (10 lines)
+    \n
+    <html>\n
+    \n
+    Congratulations again!  Now you've downloaded the file lab2-2.html. <br>\n
+    This file's last modification date will not change.  <p>\n
+    Thus  if you download this multiple times on your browser, a complete copy <br>\n
+    will only be sent once by the server due to the inclusion of the IN-MODIFIED-SINCE<br>\n
+    field in your browser's HTTP GET request to the server.\n
+    \n
+    </html>\n
+
+Frame 17: Packet, 649 bytes on wire (5192 bits), 649 bytes captured (5192 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2026 22:11:06.143800000 CST
+    UTC Arrival Time: Oct 19, 2026 14:11:06.143800000 UTC
+    Epoch Arrival Time: 1792419066.143800000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 1.000 microseconds]
+    [Time delta from previous displayed frame: 6.308000 milliseconds]
+    [Time since reference or first frame: 1.095691000 seconds]
+    Frame Number: 17
+    Frame Length: 649 bytes (5192 bits)
+    Capture Length: 649 bytes (5192 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    Character encoding: ASCII (0)
+Ethernet II, Src: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16), Dst: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+    Destination: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 10.132.215.185
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 635
+    Identification: 0xf5e2 (62946)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 27
+    Protocol: TCP (6)
+    Header Checksum: 0x0fd7 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 10.132.215.185
+    [Stream index: 0]
+Transmission Control Protocol, Src Port: 80, Dst Port: 62843, Seq: 1, Ack: 416, Len: 583
+    Source Port: 80
+    Destination Port: 62843
+    [Stream index: 1]
+    [Stream Packet Number: 7]
+    [Conversation completeness: Complete, WITH_DATA (63)]
+        ..1. .... = RST: Present
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: RFDASS]
+    [TCP Segment Len: 583]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 703341337
+    [Next Sequence Number: 584    (relative sequence number)]
+    Acknowledgment Number: 416    (relative ack number)
+    Acknowledgment number (raw): 4154284408
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 506
+    [Calculated window size: 64768]
+    [Window size scaling factor: 128]
+    Checksum: 0x3781 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 2811926495, TSecr 3919303230
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 2811926495
+            Timestamp echo reply: 3919303230
+    [Timestamps]
+        [Time since first frame in this TCP stream: 851.755000 milliseconds]
+        [Time since previous frame in this TCP stream: 1.000 microseconds]
+    [SEQ/ACK analysis]
+        [iRTT: 293.323000 milliseconds]
+        [Bytes in flight: 583]
+        [Bytes sent since last PSH flag: 583]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (583 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 301 Moved Permanently\r\n
+        Response Version: HTTP/1.1
+        Status Code: 301
+        [Status Code Description: Moved Permanently]
+        Response Phrase: Moved Permanently
+    Date: Mon, 19 Oct 2026 14:11:06 GMT\r\n
+    Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n
+    Location: https://gaia.cs.umass.edu//favicon.ico\r\n
+    Content-Length: 246\r\n
+        [Content length: 246]
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=iso-8859-1\r\n
+    \r\n
+    [Request in frame: 12]
+    [Time since request: 292.933000 milliseconds]
+    [Request URI: /favicon.ico]
+    [Full request URI: http://gaia.cs.umass.edu/favicon.ico]
+    File Data: 246 bytes
+Line-based text data: text/html (7 lines)
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n
+    <html><head>\n
+    <title>301 Moved Permanently</title>\n
+    </head><body>\n
+    <h1>Moved Permanently</h1>\n
+    <p>The document has moved <a href="https://gaia.cs.umass.edu//favicon.ico">here</a>.</p>\n
+    </body></html>\n
+
+Frame 21: Packet, 481 bytes on wire (3848 bits), 481 bytes captured (3848 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2026 22:11:06.449744000 CST
+    UTC Arrival Time: Oct 19, 2026 14:11:06.449744000 UTC
+    Epoch Arrival Time: 1792419066.449744000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 14.277000 milliseconds]
+    [Time delta from previous displayed frame: 305.944000 milliseconds]
+    [Time since reference or first frame: 1.401635000 seconds]
+    Frame Number: 21
+    Frame Length: 481 bytes (3848 bits)
+    Capture Length: 481 bytes (3848 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    Character encoding: ASCII (0)
+Ethernet II, Src: fe:78:88:a1:99:18 (fe:78:88:a1:99:18), Dst: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+    Destination: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 10.132.215.185, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 467
+    Identification: 0x0000 (0)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0xe161 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.132.215.185
+    Destination Address: 128.119.245.12
+    [Stream index: 0]
+Transmission Control Protocol, Src Port: 62842, Dst Port: 80, Seq: 939, Ack: 1222, Len: 415
+    Source Port: 62842
+    Destination Port: 80
+    [Stream index: 0]
+    [Stream Packet Number: 11]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 415]
+    Sequence Number: 939    (relative sequence number)
+    Sequence Number (raw): 851621137
+    [Next Sequence Number: 1354    (relative sequence number)]
+    Acknowledgment Number: 1222    (relative ack number)
+    Acknowledgment number (raw): 4265944967
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 2048
+    [Calculated window size: 131072]
+    [Window size scaling factor: 64]
+    Checksum: 0x7db3 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 1645952429, TSecr 2811926488
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 1645952429
+            Timestamp echo reply: 2811926488
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.401635000 seconds]
+        [Time since previous frame in this TCP stream: 312.134000 milliseconds]
+    [SEQ/ACK analysis]
+        [iRTT: 292.591000 milliseconds]
+        [Bytes in flight: 415]
+        [Bytes sent since last PSH flag: 415]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (415 bytes)
+Hypertext Transfer Protocol
+    GET /favicon.ico HTTP/1.1\r\n
+        Request Method: GET
+        Request URI: /favicon.ico
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\r\n
+    Accept-Language: zh-CN\r\n
+    Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    \r\n
+    [Response in frame: 23]
+    [Full request URI: http://gaia.cs.umass.edu/favicon.ico]
+
+Frame 23: Packet, 648 bytes on wire (5184 bits), 648 bytes captured (5184 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2026 22:11:06.752566000 CST
+    UTC Arrival Time: Oct 19, 2026 14:11:06.752566000 UTC
+    Epoch Arrival Time: 1792419066.752566000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 284.680000 milliseconds]
+    [Time delta from previous displayed frame: 302.822000 milliseconds]
+    [Time since reference or first frame: 1.704457000 seconds]
+    Frame Number: 23
+    Frame Length: 648 bytes (5184 bits)
+    Capture Length: 648 bytes (5184 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    Character encoding: ASCII (0)
+Ethernet II, Src: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16), Dst: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+    Destination: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 10.132.215.185
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 634
+    Identification: 0x21a5 (8613)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 28
+    Protocol: TCP (6)
+    Header Checksum: 0xe315 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 10.132.215.185
+    [Stream index: 0]
+Transmission Control Protocol, Src Port: 80, Dst Port: 62842, Seq: 1222, Ack: 1354, Len: 582
+    Source Port: 80
+    Destination Port: 62842
+    [Stream index: 0]
+    [Stream Packet Number: 12]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 582]
+    Sequence Number: 1222    (relative sequence number)
+    Sequence Number (raw): 4265944967
+    [Next Sequence Number: 1804    (relative sequence number)]
+    Acknowledgment Number: 1354    (relative ack number)
+    Acknowledgment number (raw): 851621552
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 501
+    [Calculated window size: 64128]
+    [Window size scaling factor: 128]
+    Checksum: 0xb569 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 2811927094, TSecr 1645952429
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 2811927094
+            Timestamp echo reply: 1645952429
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.704457000 seconds]
+        [Time since previous frame in this TCP stream: 302.822000 milliseconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 21]
+        [The RTT to ACK the segment was: 302.822000 milliseconds]
+        [iRTT: 292.591000 milliseconds]
+        [Bytes in flight: 582]
+        [Bytes sent since last PSH flag: 582]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (582 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 301 Moved Permanently\r\n
+        Response Version: HTTP/1.1
+        Status Code: 301
+        [Status Code Description: Moved Permanently]
+        Response Phrase: Moved Permanently
+    Date: Mon, 19 Oct 2026 14:11:06 GMT\r\n
+    Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n
+    Location: https://gaia.cs.umass.edu//favicon.ico\r\n
+    Content-Length: 246\r\n
+        [Content length: 246]
+    Keep-Alive: timeout=5, max=98\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=iso-8859-1\r\n
+    \r\n
+    [Request in frame: 21]
+    [Time since request: 302.822000 milliseconds]
+    [Request URI: /favicon.ico]
+    [Full request URI: http://gaia.cs.umass.edu/favicon.ico]
+    File Data: 246 bytes
+Line-based text data: text/html (7 lines)
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n
+    <html><head>\n
+    <title>301 Moved Permanently</title>\n
+    </head><body>\n
+    <h1>Moved Permanently</h1>\n
+    <p>The document has moved <a href="https://gaia.cs.umass.edu//favicon.ico">here</a>.</p>\n
+    </body></html>\n
+
+Frame 25: Packet, 647 bytes on wire (5176 bits), 647 bytes captured (5176 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2026 22:11:06.754869000 CST
+    UTC Arrival Time: Oct 19, 2026 14:11:06.754869000 UTC
+    Epoch Arrival Time: 1792419066.754869000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 2.098000 milliseconds]
+    [Time delta from previous displayed frame: 2.303000 milliseconds]
+    [Time since reference or first frame: 1.706760000 seconds]
+    Frame Number: 25
+    Frame Length: 647 bytes (5176 bits)
+    Capture Length: 647 bytes (5176 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    Character encoding: ASCII (0)
+Ethernet II, Src: fe:78:88:a1:99:18 (fe:78:88:a1:99:18), Dst: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+    Destination: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 10.132.215.185, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 633
+    Identification: 0x0000 (0)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0xe0bb [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.132.215.185
+    Destination Address: 128.119.245.12
+    [Stream index: 0]
+Transmission Control Protocol, Src Port: 62842, Dst Port: 80, Seq: 1354, Ack: 1804, Len: 581
+    Source Port: 62842
+    Destination Port: 80
+    [Stream index: 0]
+    [Stream Packet Number: 14]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 581]
+    Sequence Number: 1354    (relative sequence number)
+    Sequence Number (raw): 851621552
+    [Next Sequence Number: 1935    (relative sequence number)]
+    Acknowledgment Number: 1804    (relative ack number)
+    Acknowledgment number (raw): 4265945549
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 2048
+    [Calculated window size: 131072]
+    [Window size scaling factor: 64]
+    Checksum: 0xe9d0 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 1645952734, TSecr 2811927094
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 1645952734
+            Timestamp echo reply: 2811927094
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.706760000 seconds]
+        [Time since previous frame in this TCP stream: 2.098000 milliseconds]
+    [SEQ/ACK analysis]
+        [iRTT: 292.591000 milliseconds]
+        [Bytes in flight: 581]
+        [Bytes sent since last PSH flag: 581]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (581 bytes)
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file2.html HTTP/1.1\r\n
+        Request Method: GET
+        Request URI: /wireshark-labs/HTTP-wireshark-file2.html
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Cache-Control: max-age=0\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36\r\n
+    Accept-Language: zh-CN\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    If-None-Match: "173-64231b67176b7"\r\n
+    If-Modified-Since: Tue, 28 Oct 2025 05:59:01 GMT\r\n
+    \r\n
+    [Response in frame: 28]
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html]
+
+Frame 28: Packet, 376 bytes on wire (3008 bits), 376 bytes captured (3008 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2026 22:11:07.054328000 CST
+    UTC Arrival Time: Oct 19, 2026 14:11:07.054328000 UTC
+    Epoch Arrival Time: 1792419067.054328000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 290.292000 milliseconds]
+    [Time delta from previous displayed frame: 299.459000 milliseconds]
+    [Time since reference or first frame: 2.006219000 seconds]
+    Frame Number: 28
+    Frame Length: 376 bytes (3008 bits)
+    Capture Length: 376 bytes (3008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    Character encoding: ASCII (0)
+Ethernet II, Src: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16), Dst: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+    Destination: fe:78:88:a1:99:18 (fe:78:88:a1:99:18)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: RuijieNetwor_99:5c:16 (74:08:aa:99:5c:16)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 10.132.215.185
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x02 (DSCP: CS0, ECN: ECT(0))
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..10 = Explicit Congestion Notification: ECN-Capable Transport codepoint '10' (2)
+    Total Length: 362
+    Identification: 0x21a6 (8614)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 28
+    Protocol: TCP (6)
+    Header Checksum: 0xe424 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 128.119.245.12
+    Destination Address: 10.132.215.185
+    [Stream index: 0]
+Transmission Control Protocol, Src Port: 80, Dst Port: 62842, Seq: 1804, Ack: 1935, Len: 310
+    Source Port: 80
+    Destination Port: 62842
+    [Stream index: 0]
+    [Stream Packet Number: 15]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 310]
+    Sequence Number: 1804    (relative sequence number)
+    Sequence Number (raw): 4265945549
+    [Next Sequence Number: 2114    (relative sequence number)]
+    Acknowledgment Number: 1935    (relative ack number)
+    Acknowledgment number (raw): 851622133
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 497
+    [Calculated window size: 63616]
+    [Window size scaling factor: 128]
+    Checksum: 0xc615 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 2811927406, TSecr 1645952734
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 2811927406
+            Timestamp echo reply: 1645952734
+    [Timestamps]
+        [Time since first frame in this TCP stream: 2.006219000 seconds]
+        [Time since previous frame in this TCP stream: 299.459000 milliseconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 25]
+        [The RTT to ACK the segment was: 299.459000 milliseconds]
+        [iRTT: 292.591000 milliseconds]
+        [Bytes in flight: 310]
+        [Bytes sent since last PSH flag: 310]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (310 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 304 Not Modified\r\n
+        Response Version: HTTP/1.1
+        Status Code: 304
+        [Status Code Description: Not Modified]
+        Response Phrase: Not Modified
+    Date: Mon, 19 Oct 2026 14:11:07 GMT\r\n
+    Server: Apache/2.4.62 (AlmaLinux) OpenSSL/3.5.5 mod_fcgid/2.3.9 mod_perl/2.0.12 Perl/v5.32.1\r\n
+    Last-Modified: Tue, 28 Oct 2025 05:59:01 GMT\r\n
+    ETag: "173-64231b67176b7"\r\n
+    Accept-Ranges: bytes\r\n
+    Keep-Alive: timeout=5, max=97\r\n
+    Connection: Keep-Alive\r\n
+    \r\n
+    [Request in frame: 25]
+    [Time since request: 299.459000 milliseconds]
+    [Request URI: /wireshark-labs/HTTP-wireshark-file2.html]
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html]
+

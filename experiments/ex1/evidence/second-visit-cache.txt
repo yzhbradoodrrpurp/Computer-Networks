@@ -1,0 +1,6 @@
+### Result
+"[{\"name\":\"http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html\",\"type\":\"navigate\",\"transferSize\":0,\"encodedBodySize\":371,\"decodedBodySize\":371}]"
+### Ran Playwright code
+```js
+await page.evaluate('() => (JSON.stringify(performance.getEntriesByType("navigation").map(x=>({name:x.name,type:x.type,transferSize:x.transferSize,encodedBodySize:x.encodedBodySize,decodedBodySize:x.decodedBodySize}))))');
+```

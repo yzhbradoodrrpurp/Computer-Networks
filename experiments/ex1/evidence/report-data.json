@@ -1,0 +1,21 @@
+{
+  "formal": true,
+  "frames": {
+    "basic_req": 5,
+    "basic_res": 9,
+    "favicon_req": 21,
+    "favicon_res": 23,
+    "first_req": 11,
+    "first_res": 13,
+    "cond_req": 25,
+    "cond_res": 28
+  },
+  "client": "10.132.215.185",
+  "server": "128.119.245.12",
+  "basic_port": "62842",
+  "basic_stream": "0",
+  "basic_tcp_len": "489",
+  "first_time": "22:11:05",
+  "second_time": "22:11:06",
+  "reload_time": "22:11:06"
+}
