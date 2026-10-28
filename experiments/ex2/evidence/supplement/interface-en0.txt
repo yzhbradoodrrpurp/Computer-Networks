@@ -1,0 +1,11 @@
+$ /sbin/ifconfig en0
+en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
+	ether fe:78:88:a1:99:18
+	inet6 fe80::1cf5:e566:f1aa:592b%en0 prefixlen 64 secured scopeid 0xd 
+	inet 10.135.128.230 netmask 0xfffff800 broadcast 10.135.135.255
+	inet6 240c:c981:3120:0:18f2:fe71:ab0:92dd prefixlen 64 autoconf secured 
+	inet6 240c:c981:3120:0:8c8d:817f:98a0:db03 prefixlen 64 autoconf temporary 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active

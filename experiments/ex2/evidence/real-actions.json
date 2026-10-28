@@ -1,0 +1,273 @@
+[
+  {
+    "name": "os-version",
+    "command": [
+      "/usr/bin/sw_vers"
+    ],
+    "start_utc": "2026-10-20T01:15:11.220379+00:00",
+    "start_epoch": 1792458911.220879,
+    "returncode": 0,
+    "output": "ProductName:\t\tmacOS\nProductVersion:\t\t26.5.1\nBuildVersion:\t\t25F80\n",
+    "end_utc": "2026-10-20T01:15:11.230195+00:00",
+    "end_epoch": 1792458911.2302191
+  },
+  {
+    "name": "resolver-config",
+    "command": [
+      "/usr/sbin/scutil",
+      "--dns"
+    ],
+    "start_utc": "2026-10-20T01:15:11.835706+00:00",
+    "start_epoch": 1792458911.835741,
+    "returncode": 0,
+    "output": "DNS configuration\n\nresolver #1\n  nameserver[0] : 202.115.39.9\n  nameserver[1] : 202.115.39.6\n  if_index : 13 (en0)\n  flags    : Request A records, Request AAAA records\n  reach    : 0x00000002 (Reachable)\n\nresolver #2\n  domain   : placeholder-10956.hostname.internal\n  nameserver[0] : 127.0.0.1\n  port     : 1\n  flags    : Supplemental, Request A records, Request AAAA records\n  reach    : 0x00030002 (Reachable,Local Address,Directly Reachable Address)\n  order    : 104000\n\nresolver #3\n  domain   : local\n  options  : mdns\n  timeout  : 5\n  flags    : Request A records, Request AAAA records\n  reach    : 0x00000000 (Not Reachable)\n  order    : 300000\n\nresolver #4\n  domain   : 254.169.in-addr.arpa\n  options  : mdns\n  timeout  : 5\n  flags    : Request A records, Request AAAA records\n  reach    : 0x00000000 (Not Reachable)\n  order    : 300200\n\nresolver #5\n  domain   : 8.e.f.ip6.arpa\n  options  : mdns\n  timeout  : 5\n  flags    : Request A records, Request AAAA records\n  reach    : 0x00000000 (Not Reachable)\n  order    : 300400\n\nresolver #6\n  domain   : 9.e.f.ip6.arpa\n  options  : mdns\n  timeout  : 5\n  flags    : Request A records, Request AAAA records\n  reach    : 0x00000000 (Not Reachable)\n  order    : 300600\n\nresolver #7\n  domain   : a.e.f.ip6.arpa\n  options  : mdns\n  timeout  : 5\n  flags    : Request A records, Request AAAA records\n  reach    : 0x00000000 (Not Reachable)\n  order    : 300800\n\nresolver #8\n  domain   : b.e.f.ip6.arpa\n  options  : mdns\n  timeout  : 5\n  flags    : Request A records, Request AAAA records\n  reach    : 0x00000000 (Not Reachable)\n  order    : 301000\n\nDNS configuration (for scoped queries)\n\nresolver #1\n  nameserver[0] : 202.115.39.9\n  nameserver[1] : 202.115.39.6\n  if_index : 13 (en0)\n  flags    : Scoped, Request A records, Request AAAA records\n  reach    : 0x00000002 (Reachable)\n",
+    "end_utc": "2026-10-20T01:15:11.852008+00:00",
+    "end_epoch": 1792458911.8520598
+  },
+  {
+    "name": "interface-en0",
+    "command": [
+      "/sbin/ifconfig",
+      "en0"
+    ],
+    "start_utc": "2026-10-20T01:15:12.457881+00:00",
+    "start_epoch": 1792458912.457896,
+    "returncode": 0,
+    "output": "en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500\n\toptions=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>\n\tether fe:78:88:a1:99:18\n\tinet6 fe80::1cf5:e566:f1aa:592b%en0 prefixlen 64 secured scopeid 0xd \n\tinet 10.135.128.230 netmask 0xfffff800 broadcast 10.135.135.255\n\tinet6 240c:c981:3120:0:18f2:fe71:ab0:92dd prefixlen 64 autoconf secured \n\tinet6 240c:c981:3120:0:8c8d:817f:98a0:db03 prefixlen 64 autoconf temporary \n\tnd6 options=201<PERFORMNUD,DAD>\n\tmedia: autoselect\n\tstatus: active\n",
+    "end_utc": "2026-10-20T01:15:12.463596+00:00",
+    "end_epoch": 1792458912.463613
+  },
+  {
+    "name": "dumpcap-version",
+    "command": [
+      "/Applications/Wireshark.app/Contents/MacOS/dumpcap",
+      "--version"
+    ],
+    "start_utc": "2026-10-20T01:15:13.069233+00:00",
+    "start_epoch": 1792458913.0692868,
+    "returncode": 0,
+    "output": "Dumpcap (Wireshark) 4.6.9 (v4.6.9-0-g2d548b197c75).\n\nCopyright 1998-2026 Gerald Combs <gerald@wireshark.org> and contributors.\nLicensed under the terms of the GNU General Public License (version 2 or later).\nThis is free software; see the file named COPYING in the distribution. There is\nNO WARRANTY; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\nCompile-time info:\n Bit width: 64-bit\n  Compiler: Clang 17.0.0 (clang-1700.0.13.5)\n      GLib: 2.88.0\n With:\n  +libpcap\n Without:\n  -POSIX capabilities\n\nRuntime info:\n      OS: macOS 26.5.1, build 25F80 (Darwin 25.5.0)\n     CPU: Apple M2\n  Memory: 8192 MB of physical memory\n    GLib: 2.88.0\n  Locale: LC_TYPE=C\n Plugins: supported, 0 loaded\n With:\n  +libpcap 1.10.1\n",
+    "end_utc": "2026-10-20T01:15:13.182730+00:00",
+    "end_epoch": 1792458913.182752
+  },
+  {
+    "name": "baidu-flush",
+    "command": [
+      "/usr/bin/dscacheutil",
+      "-flushcache"
+    ],
+    "start_utc": "2026-10-20T01:15:15.796562+00:00",
+    "start_epoch": 1792458915.796721,
+    "returncode": 0,
+    "output": "",
+    "end_utc": "2026-10-20T01:15:15.820958+00:00",
+    "end_epoch": 1792458915.820996
+  },
+  {
+    "name": "baidu-mdns-hup",
+    "command": [
+      "/usr/bin/killall",
+      "-HUP",
+      "mDNSResponder"
+    ],
+    "start_utc": "2026-10-20T01:15:16.427135+00:00",
+    "start_epoch": 1792458916.427194,
+    "returncode": 0,
+    "output": "",
+    "end_utc": "2026-10-20T01:15:16.446407+00:00",
+    "end_epoch": 1792458916.446433
+  },
+  {
+    "name": "baidu-ping-first",
+    "command": [
+      "/sbin/ping",
+      "-c",
+      "3",
+      "-i",
+      "0.3",
+      "-W",
+      "1000",
+      "www.baidu.com"
+    ],
+    "start_utc": "2026-10-20T01:15:19.054316+00:00",
+    "start_epoch": 1792458919.0543418,
+    "returncode": 0,
+    "output": "PING www.a.shifen.com (110.242.70.57): 56 data bytes\n64 bytes from 110.242.70.57: icmp_seq=0 ttl=50 time=40.639 ms\n64 bytes from 110.242.70.57: icmp_seq=1 ttl=50 time=56.274 ms\n64 bytes from 110.242.70.57: icmp_seq=2 ttl=50 time=39.008 ms\n\n--- www.a.shifen.com ping statistics ---\n3 packets transmitted, 3 packets received, 0.0% packet loss\nround-trip min/avg/max/stddev = 39.008/45.307/56.274/7.783 ms\n",
+    "end_utc": "2026-10-20T01:15:19.727485+00:00",
+    "end_epoch": 1792458919.7275252
+  },
+  {
+    "name": "baidu-ping-repeat",
+    "command": [
+      "/sbin/ping",
+      "-c",
+      "3",
+      "-i",
+      "0.3",
+      "-W",
+      "1000",
+      "www.baidu.com"
+    ],
+    "start_utc": "2026-10-20T01:15:20.333903+00:00",
+    "start_epoch": 1792458920.333948,
+    "returncode": 0,
+    "output": "PING www.a.shifen.com (110.242.70.57): 56 data bytes\n64 bytes from 110.242.70.57: icmp_seq=0 ttl=50 time=37.697 ms\n64 bytes from 110.242.70.57: icmp_seq=1 ttl=50 time=37.066 ms\n64 bytes from 110.242.70.57: icmp_seq=2 ttl=50 time=41.145 ms\n\n--- www.a.shifen.com ping statistics ---\n3 packets transmitted, 3 packets received, 0.0% packet loss\nround-trip min/avg/max/stddev = 37.066/38.636/41.145/1.793 ms\n",
+    "end_utc": "2026-10-20T01:15:20.992553+00:00",
+    "end_epoch": 1792458920.992573
+  },
+  {
+    "name": "baidu-cache",
+    "command": [
+      "/usr/bin/dscacheutil",
+      "-cachedump",
+      "-entries",
+      "Host"
+    ],
+    "start_utc": "2026-10-20T01:15:21.598180+00:00",
+    "start_epoch": 1792458921.598208,
+    "returncode": 0,
+    "output": "Unable to get details from the cache node\n",
+    "end_utc": "2026-10-20T01:15:21.622409+00:00",
+    "end_epoch": 1792458921.622439
+  },
+  {
+    "name": "scu-flush",
+    "command": [
+      "/usr/bin/dscacheutil",
+      "-flushcache"
+    ],
+    "start_utc": "2026-10-20T01:15:22.227112+00:00",
+    "start_epoch": 1792458922.2271419,
+    "returncode": 0,
+    "output": "",
+    "end_utc": "2026-10-20T01:15:22.235167+00:00",
+    "end_epoch": 1792458922.2351859
+  },
+  {
+    "name": "scu-mdns-hup",
+    "command": [
+      "/usr/bin/killall",
+      "-HUP",
+      "mDNSResponder"
+    ],
+    "start_utc": "2026-10-20T01:15:22.841280+00:00",
+    "start_epoch": 1792458922.841315,
+    "returncode": 0,
+    "output": "",
+    "end_utc": "2026-10-20T01:15:22.866307+00:00",
+    "end_epoch": 1792458922.866337
+  },
+  {
+    "name": "scu-ping-first",
+    "command": [
+      "/sbin/ping",
+      "-c",
+      "3",
+      "-i",
+      "0.3",
+      "-W",
+      "1000",
+      "www.scu.edu.cn"
+    ],
+    "start_utc": "2026-10-20T01:15:25.473324+00:00",
+    "start_epoch": 1792458925.473362,
+    "returncode": 2,
+    "output": "PING www.scu.edu.cn (202.115.47.167): 56 data bytes\nRequest timeout for icmp_seq 0\nRequest timeout for icmp_seq 1\n\n--- www.scu.edu.cn ping statistics ---\n3 packets transmitted, 0 packets received, 100.0% packet loss\n",
+    "end_utc": "2026-10-20T01:15:27.410501+00:00",
+    "end_epoch": 1792458927.410602
+  },
+  {
+    "name": "scu-ping-repeat",
+    "command": [
+      "/sbin/ping",
+      "-c",
+      "3",
+      "-i",
+      "0.3",
+      "-W",
+      "1000",
+      "www.scu.edu.cn"
+    ],
+    "start_utc": "2026-10-20T01:15:28.014205+00:00",
+    "start_epoch": 1792458928.0143218,
+    "returncode": 2,
+    "output": "PING www.scu.edu.cn (202.115.47.167): 56 data bytes\nRequest timeout for icmp_seq 0\nRequest timeout for icmp_seq 1\n\n--- www.scu.edu.cn ping statistics ---\n3 packets transmitted, 0 packets received, 100.0% packet loss\n",
+    "end_utc": "2026-10-20T01:15:29.945878+00:00",
+    "end_epoch": 1792458929.945966
+  },
+  {
+    "name": "scu-cache",
+    "command": [
+      "/usr/bin/dscacheutil",
+      "-cachedump",
+      "-entries",
+      "Host"
+    ],
+    "start_utc": "2026-10-20T01:15:30.553535+00:00",
+    "start_epoch": 1792458930.553566,
+    "returncode": 0,
+    "output": "Unable to get details from the cache node\n",
+    "end_utc": "2026-10-20T01:15:30.575001+00:00",
+    "end_epoch": 1792458930.5750499
+  },
+  {
+    "name": "baidu-nslookup-A",
+    "command": [
+      "/usr/bin/nslookup",
+      "-type=A",
+      "www.baidu.com.",
+      "202.115.39.9"
+    ],
+    "start_utc": "2026-10-20T01:15:31.181233+00:00",
+    "start_epoch": 1792458931.181267,
+    "returncode": 0,
+    "output": "Server:\t\t202.115.39.9\nAddress:\t202.115.39.9#53\n\nNon-authoritative answer:\nwww.baidu.com\tcanonical name = www.a.shifen.com.\nName:\twww.a.shifen.com\nAddress: 110.242.70.57\nName:\twww.a.shifen.com\nAddress: 110.242.69.21\n\n",
+    "end_utc": "2026-10-20T01:15:31.642428+00:00",
+    "end_epoch": 1792458931.642472
+  },
+  {
+    "name": "baidu-nslookup-CNAME",
+    "command": [
+      "/usr/bin/nslookup",
+      "-type=CNAME",
+      "www.baidu.com.",
+      "202.115.39.9"
+    ],
+    "start_utc": "2026-10-20T01:15:32.248726+00:00",
+    "start_epoch": 1792458932.248773,
+    "returncode": 0,
+    "output": "Server:\t\t202.115.39.9\nAddress:\t202.115.39.9#53\n\nNon-authoritative answer:\nwww.baidu.com\tcanonical name = www.a.shifen.com.\n\nAuthoritative answers can be found from:\n\n",
+    "end_utc": "2026-10-20T01:15:32.458688+00:00",
+    "end_epoch": 1792458932.458753
+  },
+  {
+    "name": "scu-nslookup-A",
+    "command": [
+      "/usr/bin/nslookup",
+      "-type=A",
+      "www.scu.edu.cn.",
+      "202.115.39.9"
+    ],
+    "start_utc": "2026-10-20T01:15:33.065622+00:00",
+    "start_epoch": 1792458933.065648,
+    "returncode": 0,
+    "output": "Server:\t\t202.115.39.9\nAddress:\t202.115.39.9#53\n\nNon-authoritative answer:\nName:\twww.scu.edu.cn\nAddress: 202.115.47.167\n\n",
+    "end_utc": "2026-10-20T01:15:33.078953+00:00",
+    "end_epoch": 1792458933.078988
+  },
+  {
+    "name": "scu-nslookup-CNAME",
+    "command": [
+      "/usr/bin/nslookup",
+      "-type=CNAME",
+      "www.scu.edu.cn.",
+      "202.115.39.9"
+    ],
+    "start_utc": "2026-10-20T01:15:33.685264+00:00",
+    "start_epoch": 1792458933.685303,
+    "returncode": 0,
+    "output": "Server:\t\t202.115.39.9\nAddress:\t202.115.39.9#53\n\nNon-authoritative answer:\n*** Can't find www.scu.edu.cn.: No answer\n\nAuthoritative answers can be found from:\nscu.edu.cn\n\torigin = dart.scu.edu.cn\n\tmail addr = root\\@scu.edu.cn\n\tserial = 2024110585\n\trefresh = 1200\n\tretry = 1200\n\texpire = 1209600\n\tminimum = 600\n\n",
+    "end_utc": "2026-10-20T01:15:33.780457+00:00",
+    "end_epoch": 1792458933.780503
+  }
+]

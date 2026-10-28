@@ -1,0 +1,17 @@
+$ /usr/bin/nslookup -type=CNAME www.scu.edu.cn. 202.115.39.9
+Server:		202.115.39.9
+Address:	202.115.39.9#53
+
+Non-authoritative answer:
+*** Can't find www.scu.edu.cn.: No answer
+
+Authoritative answers can be found from:
+scu.edu.cn
+	origin = dart.scu.edu.cn
+	mail addr = root\@scu.edu.cn
+	serial = 2024110585
+	refresh = 1200
+	retry = 1200
+	expire = 1209600
+	minimum = 600
+

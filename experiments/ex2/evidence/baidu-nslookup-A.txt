@@ -1,0 +1,11 @@
+$ /usr/bin/nslookup -type=A www.baidu.com. 202.115.39.9
+Server:		202.115.39.9
+Address:	202.115.39.9#53
+
+Non-authoritative answer:
+www.baidu.com	canonical name = www.a.shifen.com.
+Name:	www.a.shifen.com
+Address: 110.242.70.57
+Name:	www.a.shifen.com
+Address: 110.242.69.21
+

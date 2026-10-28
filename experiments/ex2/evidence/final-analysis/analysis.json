@@ -1,0 +1,714 @@
+[
+  {
+    "frame": 5,
+    "time_epoch": 1792460269.490989,
+    "actions": [
+      "baidu-ping-first"
+    ],
+    "src": "10.135.128.230",
+    "dst": "223.5.5.5",
+    "sport": "54546",
+    "dport": "53",
+    "transport": "UDP",
+    "id": "0x12c7",
+    "response": "False",
+    "AA": "",
+    "RD": "True",
+    "RA": "",
+    "rcode": "",
+    "query": "www.baidu.com",
+    "qtype": "1",
+    "response_to": "",
+    "response_in": "",
+    "answers": "0",
+    "CNAME": [],
+    "A": [],
+    "AAAA": [],
+    "RR_names": [],
+    "RR_types": [],
+    "TTL": [],
+    "resource_records": []
+  },
+  {
+    "frame": 6,
+    "time_epoch": 1792460269.49748,
+    "actions": [
+      "baidu-ping-first"
+    ],
+    "src": "223.5.5.5",
+    "dst": "10.135.128.230",
+    "sport": "53",
+    "dport": "54546",
+    "transport": "UDP",
+    "id": "0x12c7",
+    "response": "True",
+    "AA": "False",
+    "RD": "True",
+    "RA": "True",
+    "rcode": "0",
+    "query": "www.baidu.com",
+    "qtype": "1",
+    "response_to": "5",
+    "response_in": "",
+    "answers": "3",
+    "CNAME": [
+      "www.a.shifen.com"
+    ],
+    "A": [
+      "110.242.70.57",
+      "110.242.69.21"
+    ],
+    "AAAA": [],
+    "RR_names": [
+      "www.baidu.com",
+      "www.a.shifen.com",
+      "www.a.shifen.com"
+    ],
+    "RR_types": [
+      "5",
+      "1",
+      "1"
+    ],
+    "TTL": [
+      "1029",
+      "54",
+      "54"
+    ],
+    "resource_records": [
+      {
+        "section": "Answers",
+        "summary": "www.baidu.com: type CNAME, class IN, cname www.a.shifen.com",
+        "fields": {
+          "dns.resp.name": "www.baidu.com",
+          "dns.resp.type": "5",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "1029",
+          "dns.resp.len": "18",
+          "dns.cname": "www.a.shifen.com"
+        }
+      },
+      {
+        "section": "Answers",
+        "summary": "www.a.shifen.com: type A, class IN, addr 110.242.70.57",
+        "fields": {
+          "dns.resp.name": "www.a.shifen.com",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "54",
+          "dns.resp.len": "4",
+          "dns.a": "110.242.70.57"
+        }
+      },
+      {
+        "section": "Answers",
+        "summary": "www.a.shifen.com: type A, class IN, addr 110.242.69.21",
+        "fields": {
+          "dns.resp.name": "www.a.shifen.com",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "54",
+          "dns.resp.len": "4",
+          "dns.a": "110.242.69.21"
+        }
+      }
+    ]
+  },
+  {
+    "frame": 25,
+    "time_epoch": 1792460275.904043,
+    "actions": [
+      "scu-ping-first"
+    ],
+    "src": "10.135.128.230",
+    "dst": "223.5.5.5",
+    "sport": "56898",
+    "dport": "53",
+    "transport": "UDP",
+    "id": "0xf1c5",
+    "response": "False",
+    "AA": "",
+    "RD": "True",
+    "RA": "",
+    "rcode": "",
+    "query": "www.scu.edu.cn",
+    "qtype": "1",
+    "response_to": "",
+    "response_in": "",
+    "answers": "0",
+    "CNAME": [],
+    "A": [],
+    "AAAA": [],
+    "RR_names": [],
+    "RR_types": [],
+    "TTL": [],
+    "resource_records": []
+  },
+  {
+    "frame": 26,
+    "time_epoch": 1792460275.924888,
+    "actions": [
+      "scu-ping-first"
+    ],
+    "src": "223.5.5.5",
+    "dst": "10.135.128.230",
+    "sport": "53",
+    "dport": "56898",
+    "transport": "UDP",
+    "id": "0xf1c5",
+    "response": "True",
+    "AA": "False",
+    "RD": "True",
+    "RA": "True",
+    "rcode": "0",
+    "query": "www.scu.edu.cn",
+    "qtype": "1",
+    "response_to": "25",
+    "response_in": "",
+    "answers": "1",
+    "CNAME": [],
+    "A": [
+      "202.115.47.167"
+    ],
+    "AAAA": [],
+    "RR_names": [
+      "www.scu.edu.cn"
+    ],
+    "RR_types": [
+      "1"
+    ],
+    "TTL": [
+      "174"
+    ],
+    "resource_records": [
+      {
+        "section": "Answers",
+        "summary": "www.scu.edu.cn: type A, class IN, addr 202.115.47.167",
+        "fields": {
+          "dns.resp.name": "www.scu.edu.cn",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "174",
+          "dns.resp.len": "4",
+          "dns.a": "202.115.47.167"
+        }
+      }
+    ]
+  },
+  {
+    "frame": 36,
+    "time_epoch": 1792460281.607236,
+    "actions": [
+      "baidu-nslookup-A"
+    ],
+    "src": "10.135.128.230",
+    "dst": "202.115.39.9",
+    "sport": "49533",
+    "dport": "53",
+    "transport": "UDP",
+    "id": "0x9d7c",
+    "response": "False",
+    "AA": "",
+    "RD": "True",
+    "RA": "",
+    "rcode": "",
+    "query": "www.baidu.com",
+    "qtype": "1",
+    "response_to": "",
+    "response_in": "",
+    "answers": "0",
+    "CNAME": [],
+    "A": [],
+    "AAAA": [],
+    "RR_names": [],
+    "RR_types": [],
+    "TTL": [],
+    "resource_records": []
+  },
+  {
+    "frame": 37,
+    "time_epoch": 1792460281.610138,
+    "actions": [
+      "baidu-nslookup-A"
+    ],
+    "src": "202.115.39.9",
+    "dst": "10.135.128.230",
+    "sport": "53",
+    "dport": "49533",
+    "transport": "UDP",
+    "id": "0x9d7c",
+    "response": "True",
+    "AA": "False",
+    "RD": "True",
+    "RA": "True",
+    "rcode": "0",
+    "query": "www.baidu.com",
+    "qtype": "1",
+    "response_to": "36",
+    "response_in": "",
+    "answers": "3",
+    "CNAME": [
+      "www.a.shifen.com"
+    ],
+    "A": [
+      "110.242.69.21",
+      "110.242.70.57"
+    ],
+    "AAAA": [],
+    "RR_names": [
+      "www.baidu.com",
+      "www.a.shifen.com",
+      "www.a.shifen.com"
+    ],
+    "RR_types": [
+      "5",
+      "1",
+      "1"
+    ],
+    "TTL": [
+      "615",
+      "233",
+      "233"
+    ],
+    "resource_records": [
+      {
+        "section": "Answers",
+        "summary": "www.baidu.com: type CNAME, class IN, cname www.a.shifen.com",
+        "fields": {
+          "dns.resp.name": "www.baidu.com",
+          "dns.resp.type": "5",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "615",
+          "dns.resp.len": "15",
+          "dns.cname": "www.a.shifen.com"
+        }
+      },
+      {
+        "section": "Answers",
+        "summary": "www.a.shifen.com: type A, class IN, addr 110.242.69.21",
+        "fields": {
+          "dns.resp.name": "www.a.shifen.com",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "233",
+          "dns.resp.len": "4",
+          "dns.a": "110.242.69.21"
+        }
+      },
+      {
+        "section": "Answers",
+        "summary": "www.a.shifen.com: type A, class IN, addr 110.242.70.57",
+        "fields": {
+          "dns.resp.name": "www.a.shifen.com",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "233",
+          "dns.resp.len": "4",
+          "dns.a": "110.242.70.57"
+        }
+      }
+    ]
+  },
+  {
+    "frame": 38,
+    "time_epoch": 1792460282.226762,
+    "actions": [
+      "baidu-nslookup-CNAME"
+    ],
+    "src": "10.135.128.230",
+    "dst": "202.115.39.9",
+    "sport": "54677",
+    "dport": "53",
+    "transport": "UDP",
+    "id": "0x4552",
+    "response": "False",
+    "AA": "",
+    "RD": "True",
+    "RA": "",
+    "rcode": "",
+    "query": "www.baidu.com",
+    "qtype": "5",
+    "response_to": "",
+    "response_in": "",
+    "answers": "0",
+    "CNAME": [],
+    "A": [],
+    "AAAA": [],
+    "RR_names": [],
+    "RR_types": [],
+    "TTL": [],
+    "resource_records": []
+  },
+  {
+    "frame": 39,
+    "time_epoch": 1792460282.266195,
+    "actions": [
+      "baidu-nslookup-CNAME"
+    ],
+    "src": "202.115.39.9",
+    "dst": "10.135.128.230",
+    "sport": "53",
+    "dport": "54677",
+    "transport": "UDP",
+    "id": "0x4552",
+    "response": "True",
+    "AA": "False",
+    "RD": "True",
+    "RA": "True",
+    "rcode": "0",
+    "query": "www.baidu.com",
+    "qtype": "5",
+    "response_to": "38",
+    "response_in": "",
+    "answers": "1",
+    "CNAME": [
+      "www.a.shifen.com"
+    ],
+    "A": [],
+    "AAAA": [],
+    "RR_names": [
+      "www.baidu.com"
+    ],
+    "RR_types": [
+      "5"
+    ],
+    "TTL": [
+      "614"
+    ],
+    "resource_records": [
+      {
+        "section": "Answers",
+        "summary": "www.baidu.com: type CNAME, class IN, cname www.a.shifen.com",
+        "fields": {
+          "dns.resp.name": "www.baidu.com",
+          "dns.resp.type": "5",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "614",
+          "dns.resp.len": "15",
+          "dns.cname": "www.a.shifen.com"
+        }
+      }
+    ]
+  },
+  {
+    "frame": 40,
+    "time_epoch": 1792460282.886165,
+    "actions": [
+      "scu-nslookup-A"
+    ],
+    "src": "10.135.128.230",
+    "dst": "202.115.39.9",
+    "sport": "52277",
+    "dport": "53",
+    "transport": "UDP",
+    "id": "0x0ce6",
+    "response": "False",
+    "AA": "",
+    "RD": "True",
+    "RA": "",
+    "rcode": "",
+    "query": "www.scu.edu.cn",
+    "qtype": "1",
+    "response_to": "",
+    "response_in": "",
+    "answers": "0",
+    "CNAME": [],
+    "A": [],
+    "AAAA": [],
+    "RR_names": [],
+    "RR_types": [],
+    "TTL": [],
+    "resource_records": []
+  },
+  {
+    "frame": 41,
+    "time_epoch": 1792460282.932022,
+    "actions": [
+      "scu-nslookup-A"
+    ],
+    "src": "202.115.39.9",
+    "dst": "10.135.128.230",
+    "sport": "53",
+    "dport": "52277",
+    "transport": "UDP",
+    "id": "0x0ce6",
+    "response": "True",
+    "AA": "False",
+    "RD": "True",
+    "RA": "True",
+    "rcode": "0",
+    "query": "www.scu.edu.cn",
+    "qtype": "1",
+    "response_to": "40",
+    "response_in": "",
+    "answers": "1",
+    "CNAME": [],
+    "A": [
+      "202.115.47.167",
+      "202.115.32.39",
+      "42.236.73.177",
+      "42.236.73.178",
+      "211.83.155.2",
+      "202.115.32.36"
+    ],
+    "AAAA": [],
+    "RR_names": [
+      "www.scu.edu.cn",
+      "scu.edu.cn",
+      "scu.edu.cn",
+      "scu.edu.cn",
+      "scu.edu.cn",
+      "scu.edu.cn",
+      "dart.scu.edu.cn",
+      "dns1.scu.edu.cn",
+      "dns2.scu.edu.cn",
+      "dns3.scu.edu.cn",
+      "secdns.scu.edu.cn"
+    ],
+    "RR_types": [
+      "1",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "TTL": [
+      "26",
+      "150197",
+      "150197",
+      "150197",
+      "150197",
+      "150197",
+      "317",
+      "145944",
+      "145944",
+      "145944",
+      "52663"
+    ],
+    "resource_records": [
+      {
+        "section": "Answers",
+        "summary": "www.scu.edu.cn: type A, class IN, addr 202.115.47.167",
+        "fields": {
+          "dns.resp.name": "www.scu.edu.cn",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "26",
+          "dns.resp.len": "4",
+          "dns.a": "202.115.47.167"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "scu.edu.cn: type NS, class IN, ns dns2.scu.edu.cn",
+        "fields": {
+          "dns.resp.name": "scu.edu.cn",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "150197",
+          "dns.resp.len": "7",
+          "dns.ns": "dns2.scu.edu.cn"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "scu.edu.cn: type NS, class IN, ns dns1.scu.edu.cn",
+        "fields": {
+          "dns.resp.name": "scu.edu.cn",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "150197",
+          "dns.resp.len": "7",
+          "dns.ns": "dns1.scu.edu.cn"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "scu.edu.cn: type NS, class IN, ns dns3.scu.edu.cn",
+        "fields": {
+          "dns.resp.name": "scu.edu.cn",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "150197",
+          "dns.resp.len": "7",
+          "dns.ns": "dns3.scu.edu.cn"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "scu.edu.cn: type NS, class IN, ns secdns.scu.edu.cn",
+        "fields": {
+          "dns.resp.name": "scu.edu.cn",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "150197",
+          "dns.resp.len": "9",
+          "dns.ns": "secdns.scu.edu.cn"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "scu.edu.cn: type NS, class IN, ns dart.scu.edu.cn",
+        "fields": {
+          "dns.resp.name": "scu.edu.cn",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "150197",
+          "dns.resp.len": "7",
+          "dns.ns": "dart.scu.edu.cn"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "dart.scu.edu.cn: type A, class IN, addr 202.115.32.39",
+        "fields": {
+          "dns.resp.name": "dart.scu.edu.cn",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "317",
+          "dns.resp.len": "4",
+          "dns.a": "202.115.32.39"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "dns1.scu.edu.cn: type A, class IN, addr 42.236.73.177",
+        "fields": {
+          "dns.resp.name": "dns1.scu.edu.cn",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "145944",
+          "dns.resp.len": "4",
+          "dns.a": "42.236.73.177"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "dns2.scu.edu.cn: type A, class IN, addr 42.236.73.178",
+        "fields": {
+          "dns.resp.name": "dns2.scu.edu.cn",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "145944",
+          "dns.resp.len": "4",
+          "dns.a": "42.236.73.178"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "dns3.scu.edu.cn: type A, class IN, addr 211.83.155.2",
+        "fields": {
+          "dns.resp.name": "dns3.scu.edu.cn",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "145944",
+          "dns.resp.len": "4",
+          "dns.a": "211.83.155.2"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "secdns.scu.edu.cn: type A, class IN, addr 202.115.32.36",
+        "fields": {
+          "dns.resp.name": "secdns.scu.edu.cn",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "52663",
+          "dns.resp.len": "4",
+          "dns.a": "202.115.32.36"
+        }
+      }
+    ]
+  },
+  {
+    "frame": 50,
+    "time_epoch": 1792460283.546117,
+    "actions": [
+      "scu-nslookup-CNAME"
+    ],
+    "src": "10.135.128.230",
+    "dst": "202.115.39.9",
+    "sport": "53482",
+    "dport": "53",
+    "transport": "UDP",
+    "id": "0x3a1c",
+    "response": "False",
+    "AA": "",
+    "RD": "True",
+    "RA": "",
+    "rcode": "",
+    "query": "www.scu.edu.cn",
+    "qtype": "5",
+    "response_to": "",
+    "response_in": "",
+    "answers": "0",
+    "CNAME": [],
+    "A": [],
+    "AAAA": [],
+    "RR_names": [],
+    "RR_types": [],
+    "TTL": [],
+    "resource_records": []
+  },
+  {
+    "frame": 51,
+    "time_epoch": 1792460283.623655,
+    "actions": [
+      "scu-nslookup-CNAME"
+    ],
+    "src": "202.115.39.9",
+    "dst": "10.135.128.230",
+    "sport": "53",
+    "dport": "53482",
+    "transport": "UDP",
+    "id": "0x3a1c",
+    "response": "True",
+    "AA": "False",
+    "RD": "True",
+    "RA": "True",
+    "rcode": "0",
+    "query": "www.scu.edu.cn",
+    "qtype": "5",
+    "response_to": "50",
+    "response_in": "",
+    "answers": "0",
+    "CNAME": [],
+    "A": [],
+    "AAAA": [],
+    "RR_names": [
+      "scu.edu.cn"
+    ],
+    "RR_types": [
+      "6"
+    ],
+    "TTL": [
+      "300"
+    ],
+    "resource_records": [
+      {
+        "section": "Authoritative nameservers",
+        "summary": "scu.edu.cn: type SOA, class IN, mname dart.scu.edu.cn",
+        "fields": {
+          "dns.resp.name": "scu.edu.cn",
+          "dns.resp.type": "6",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "300",
+          "dns.resp.len": "38",
+          "dns.soa.mname": "dart.scu.edu.cn",
+          "dns.soa.rname": "root@scu.edu.cn",
+          "dns.soa.rname.name": "root@scu@edu.cn",
+          "dns.soa.serial_number": "2024110585",
+          "dns.soa.refresh_interval": "1200",
+          "dns.soa.retry_interval": "1200",
+          "dns.soa.expire_limit": "1209600",
+          "dns.soa.minimum_ttl": "600"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+$ /Applications/Wireshark.app/Contents/MacOS/dumpcap --version
+Dumpcap (Wireshark) 4.6.9 (v4.6.9-0-g2d548b197c75).
+
+Copyright 1998-2026 Gerald Combs <gerald@wireshark.org> and contributors.
+Licensed under the terms of the GNU General Public License (version 2 or later).
+This is free software; see the file named COPYING in the distribution. There is
+NO WARRANTY; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compile-time info:
+ Bit width: 64-bit
+  Compiler: Clang 17.0.0 (clang-1700.0.13.5)
+      GLib: 2.88.0
+ With:
+  +libpcap
+ Without:
+  -POSIX capabilities
+
+Runtime info:
+      OS: macOS 26.5.1, build 25F80 (Darwin 25.5.0)
+     CPU: Apple M2
+  Memory: 8192 MB of physical memory
+    GLib: 2.88.0
+  Locale: LC_TYPE=C
+ Plugins: supported, 0 loaded
+ With:
+  +libpcap 1.10.1

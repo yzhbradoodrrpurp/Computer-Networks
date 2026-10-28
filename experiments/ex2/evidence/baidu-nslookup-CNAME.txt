@@ -1,0 +1,9 @@
+$ /usr/bin/nslookup -type=CNAME www.baidu.com. 202.115.39.9
+Server:		202.115.39.9
+Address:	202.115.39.9#53
+
+Non-authoritative answer:
+www.baidu.com	canonical name = www.a.shifen.com.
+
+Authoritative answers can be found from:
+

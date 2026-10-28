@@ -32,10 +32,10 @@ Internet 协议栈从上到下分为五层：
 
 OSI 参考模型有七层：
 
-```markdown
+```
 Application
-**Presentation**
-**Session**
+Presentation
+Session
 Transport
 Network
 Link

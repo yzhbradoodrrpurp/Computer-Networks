@@ -1,0 +1,12 @@
+{
+  "pdf_pages": 17,
+  "figures": 12,
+  "analysis_questions": 10,
+  "docx_zip_integrity": "passed",
+  "visual_qa": "all 17 retained pages verified after removing final notes page",
+  "formal_capture_packets": 51,
+  "formal_capture_bytes": 7164,
+  "target_dns_transaction_pairs": 6,
+  "capture_english_copy_sha256_matches": true,
+  "packet_tracer_file_bytes": 72400
+}

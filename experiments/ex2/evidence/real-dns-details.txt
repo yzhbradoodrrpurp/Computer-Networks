@@ -1,0 +1,967 @@
+Frame 33: Packet, 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 20, 2026 09:15:31.204459000 CST
+    UTC Arrival Time: Oct 20, 2026 01:15:31.204459000 UTC
+    Epoch Arrival Time: 1792458931.204459000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 2.568237000 seconds]
+    [Time since reference or first frame: 14.735921000 seconds]
+    Frame Number: 33
+    Frame Length: 73 bytes (584 bits)
+    Capture Length: 73 bytes (584 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+Ethernet II, Src: fe:78:88:a1:99:18, Dst: 74:08:aa:99:5c:16
+    Destination: 74:08:aa:99:5c:16
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: fe:78:88:a1:99:18
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 10.135.128.230, Dst: 202.115.39.9
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 59
+    Identification: 0xf65e (63070)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x076a [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.135.128.230
+    Destination Address: 202.115.39.9
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 59613, Dst Port: 53
+    Source Port: 59613
+    Destination Port: 53
+    Length: 39
+    Checksum: 0xd8e4 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Stream Packet Number: 1]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (31 bytes)
+Domain Name System (query)
+    Transaction ID: 0x04be
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.baidu.com: type A, class IN
+            Name: www.baidu.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+
+Frame 34: Packet, 356 bytes on wire (2848 bits), 356 bytes captured (2848 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 20, 2026 09:15:31.640218000 CST
+    UTC Arrival Time: Oct 20, 2026 01:15:31.640218000 UTC
+    Epoch Arrival Time: 1792458931.640218000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 435.759000 milliseconds]
+    [Time delta from previous displayed frame: 435.759000 milliseconds]
+    [Time since reference or first frame: 15.171680000 seconds]
+    Frame Number: 34
+    Frame Length: 356 bytes (2848 bits)
+    Capture Length: 356 bytes (2848 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+Ethernet II, Src: 74:08:aa:99:5c:16, Dst: fe:78:88:a1:99:18
+    Destination: fe:78:88:a1:99:18
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 74:08:aa:99:5c:16
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 202.115.39.9, Dst: 10.135.128.230
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 342
+    Identification: 0xd0e8 (53480)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 62
+    Protocol: UDP (17)
+    Header Checksum: 0x2dc5 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 202.115.39.9
+    Destination Address: 10.135.128.230
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 53, Dst Port: 59613
+    Source Port: 53
+    Destination Port: 59613
+    Length: 322
+    Checksum: 0x7c35 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Stream Packet Number: 2]
+    [Timestamps]
+        [Time since first frame: 435.759000 milliseconds]
+        [Time since previous frame: 435.759000 milliseconds]
+    UDP payload (314 bytes)
+Domain Name System (response)
+    Transaction ID: 0x04be
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 4
+    Additional RRs: 8
+    Queries
+        www.baidu.com: type A, class IN
+            Name: www.baidu.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+    Answers
+        www.baidu.com: type CNAME, class IN, cname www.a.shifen.com
+            Name: www.baidu.com
+            Type: CNAME (5) (Canonical NAME for an alias)
+            Class: IN (0x0001)
+            Time to live: 476 (7 minutes, 56 seconds)
+            Data length: 15
+            CNAME: www.a.shifen.com
+        www.a.shifen.com: type A, class IN, addr 110.242.70.57
+            Name: www.a.shifen.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 475 (7 minutes, 55 seconds)
+            Data length: 4
+            Address: 110.242.70.57
+        www.a.shifen.com: type A, class IN, addr 110.242.69.21
+            Name: www.a.shifen.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 475 (7 minutes, 55 seconds)
+            Data length: 4
+            Address: 110.242.69.21
+    Authoritative nameservers
+        shifen.com: type NS, class IN, ns ns4.baidu.com
+            Name: shifen.com
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 70314 (19 hours, 31 minutes, 54 seconds)
+            Data length: 6
+            Name Server: ns4.baidu.com
+        shifen.com: type NS, class IN, ns dns.baidu.com
+            Name: shifen.com
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 70314 (19 hours, 31 minutes, 54 seconds)
+            Data length: 6
+            Name Server: dns.baidu.com
+        shifen.com: type NS, class IN, ns ns2.baidu.com
+            Name: shifen.com
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 70314 (19 hours, 31 minutes, 54 seconds)
+            Data length: 6
+            Name Server: ns2.baidu.com
+        shifen.com: type NS, class IN, ns ns3.baidu.com
+            Name: shifen.com
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 70314 (19 hours, 31 minutes, 54 seconds)
+            Data length: 6
+            Name Server: ns3.baidu.com
+    Additional records
+        dns.baidu.com: type A, class IN, addr 110.242.68.134
+            Name: dns.baidu.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 25972 (7 hours, 12 minutes, 52 seconds)
+            Data length: 4
+            Address: 110.242.68.134
+        dns.baidu.com: type AAAA, class IN, addr 240e:bf:b801:1002:0:ff:b024:26de
+            Name: dns.baidu.com
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 6014 (1 hour, 40 minutes, 14 seconds)
+            Data length: 16
+            AAAA Address: 240e:bf:b801:1002:0:ff:b024:26de
+        ns2.baidu.com: type A, class IN, addr 220.181.33.31
+            Name: ns2.baidu.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 18818 (5 hours, 13 minutes, 38 seconds)
+            Data length: 4
+            Address: 220.181.33.31
+        ns2.baidu.com: type AAAA, class IN, addr 240e:940:603:4:0:ff:b01b:589a
+            Name: ns2.baidu.com
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 17824 (4 hours, 57 minutes, 4 seconds)
+            Data length: 16
+            AAAA Address: 240e:940:603:4:0:ff:b01b:589a
+        ns3.baidu.com: type A, class IN, addr 153.3.238.93
+            Name: ns3.baidu.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 70825 (19 hours, 40 minutes, 25 seconds)
+            Data length: 4
+            Address: 153.3.238.93
+        ns3.baidu.com: type A, class IN, addr 36.155.132.78
+            Name: ns3.baidu.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 70825 (19 hours, 40 minutes, 25 seconds)
+            Data length: 4
+            Address: 36.155.132.78
+        ns4.baidu.com: type A, class IN, addr 14.215.178.80
+            Name: ns4.baidu.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 70885 (19 hours, 41 minutes, 25 seconds)
+            Data length: 4
+            Address: 14.215.178.80
+        ns4.baidu.com: type A, class IN, addr 111.45.3.226
+            Name: ns4.baidu.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 70885 (19 hours, 41 minutes, 25 seconds)
+            Data length: 4
+            Address: 111.45.3.226
+    [Request In: 33]
+    [Time: 435.759000 milliseconds]
+
+Frame 35: Packet, 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 20, 2026 09:15:32.263725000 CST
+    UTC Arrival Time: Oct 20, 2026 01:15:32.263725000 UTC
+    Epoch Arrival Time: 1792458932.263725000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 623.507000 milliseconds]
+    [Time delta from previous displayed frame: 623.507000 milliseconds]
+    [Time since reference or first frame: 15.795187000 seconds]
+    Frame Number: 35
+    Frame Length: 73 bytes (584 bits)
+    Capture Length: 73 bytes (584 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+Ethernet II, Src: fe:78:88:a1:99:18, Dst: 74:08:aa:99:5c:16
+    Destination: 74:08:aa:99:5c:16
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: fe:78:88:a1:99:18
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 10.135.128.230, Dst: 202.115.39.9
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 59
+    Identification: 0x82a9 (33449)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x7b1f [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.135.128.230
+    Destination Address: 202.115.39.9
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 51298, Dst Port: 53
+    Source Port: 51298
+    Destination Port: 53
+    Length: 39
+    Checksum: 0x885b [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 8]
+    [Stream Packet Number: 1]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (31 bytes)
+Domain Name System (query)
+    Transaction ID: 0x71c2
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.baidu.com: type CNAME, class IN
+            Name: www.baidu.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: CNAME (5) (Canonical NAME for an alias)
+            Class: IN (0x0001)
+
+Frame 36: Packet, 100 bytes on wire (800 bits), 100 bytes captured (800 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 20, 2026 09:15:32.456642000 CST
+    UTC Arrival Time: Oct 20, 2026 01:15:32.456642000 UTC
+    Epoch Arrival Time: 1792458932.456642000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 192.917000 milliseconds]
+    [Time delta from previous displayed frame: 192.917000 milliseconds]
+    [Time since reference or first frame: 15.988104000 seconds]
+    Frame Number: 36
+    Frame Length: 100 bytes (800 bits)
+    Capture Length: 100 bytes (800 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+Ethernet II, Src: 74:08:aa:99:5c:16, Dst: fe:78:88:a1:99:18
+    Destination: fe:78:88:a1:99:18
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 74:08:aa:99:5c:16
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 202.115.39.9, Dst: 10.135.128.230
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 86
+    Identification: 0xd4a6 (54438)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 62
+    Protocol: UDP (17)
+    Header Checksum: 0x2b07 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 202.115.39.9
+    Destination Address: 10.135.128.230
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 53, Dst Port: 51298
+    Source Port: 53
+    Destination Port: 51298
+    Length: 66
+    Checksum: 0xb90b [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 8]
+    [Stream Packet Number: 2]
+    [Timestamps]
+        [Time since first frame: 192.917000 milliseconds]
+        [Time since previous frame: 192.917000 milliseconds]
+    UDP payload (58 bytes)
+Domain Name System (response)
+    Transaction ID: 0x71c2
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.baidu.com: type CNAME, class IN
+            Name: www.baidu.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: CNAME (5) (Canonical NAME for an alias)
+            Class: IN (0x0001)
+    Answers
+        www.baidu.com: type CNAME, class IN, cname www.a.shifen.com
+            Name: www.baidu.com
+            Type: CNAME (5) (Canonical NAME for an alias)
+            Class: IN (0x0001)
+            Time to live: 475 (7 minutes, 55 seconds)
+            Data length: 15
+            CNAME: www.a.shifen.com
+    [Request In: 35]
+    [Time: 192.917000 milliseconds]
+
+Frame 37: Packet, 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 20, 2026 09:15:33.074286000 CST
+    UTC Arrival Time: Oct 20, 2026 01:15:33.074286000 UTC
+    Epoch Arrival Time: 1792458933.074286000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 617.644000 milliseconds]
+    [Time delta from previous displayed frame: 617.644000 milliseconds]
+    [Time since reference or first frame: 16.605748000 seconds]
+    Frame Number: 37
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+Ethernet II, Src: fe:78:88:a1:99:18, Dst: 74:08:aa:99:5c:16
+    Destination: 74:08:aa:99:5c:16
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: fe:78:88:a1:99:18
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 10.135.128.230, Dst: 202.115.39.9
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 60
+    Identification: 0x4f38 (20280)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xae8f [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.135.128.230
+    Destination Address: 202.115.39.9
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 57892, Dst Port: 53
+    Source Port: 57892
+    Destination Port: 53
+    Length: 40
+    Checksum: 0xaa1a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 9]
+    [Stream Packet Number: 1]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (32 bytes)
+Domain Name System (query)
+    Transaction ID: 0x3b28
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.scu.edu.cn: type A, class IN
+            Name: www.scu.edu.cn
+            [Name Length: 14]
+            [Label Count: 4]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+
+Frame 38: Packet, 534 bytes on wire (4272 bits), 534 bytes captured (4272 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 20, 2026 09:15:33.077310000 CST
+    UTC Arrival Time: Oct 20, 2026 01:15:33.077310000 UTC
+    Epoch Arrival Time: 1792458933.077310000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 3.024000 milliseconds]
+    [Time delta from previous displayed frame: 3.024000 milliseconds]
+    [Time since reference or first frame: 16.608772000 seconds]
+    Frame Number: 38
+    Frame Length: 534 bytes (4272 bits)
+    Capture Length: 534 bytes (4272 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+Ethernet II, Src: 74:08:aa:99:5c:16, Dst: fe:78:88:a1:99:18
+    Destination: fe:78:88:a1:99:18
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 74:08:aa:99:5c:16
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 202.115.39.9, Dst: 10.135.128.230
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 520
+    Identification: 0xd696 (54934)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 62
+    Protocol: UDP (17)
+    Header Checksum: 0x2765 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 202.115.39.9
+    Destination Address: 10.135.128.230
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 53, Dst Port: 57892
+    Source Port: 53
+    Destination Port: 57892
+    Length: 500
+    Checksum: 0x5a0c [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 9]
+    [Stream Packet Number: 2]
+    [Timestamps]
+        [Time since first frame: 3.024000 milliseconds]
+        [Time since previous frame: 3.024000 milliseconds]
+    UDP payload (492 bytes)
+Domain Name System (response)
+    Transaction ID: 0x3b28
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 6
+    Additional RRs: 15
+    Queries
+        www.scu.edu.cn: type A, class IN
+            Name: www.scu.edu.cn
+            [Name Length: 14]
+            [Label Count: 4]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+    Answers
+        www.scu.edu.cn: type A, class IN, addr 202.115.47.167
+            Name: www.scu.edu.cn
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 169 (2 minutes, 49 seconds)
+            Data length: 4
+            Address: 202.115.47.167
+    Authoritative nameservers
+        edu.cn: type NS, class IN, ns ns2.cernet.net
+            Name: edu.cn
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 145214 (1 day, 16 hours, 20 minutes, 14 seconds)
+            Data length: 16
+            Name Server: ns2.cernet.net
+        edu.cn: type NS, class IN, ns dns3.edu.cn
+            Name: edu.cn
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 145214 (1 day, 16 hours, 20 minutes, 14 seconds)
+            Data length: 7
+            Name Server: dns3.edu.cn
+        edu.cn: type NS, class IN, ns dns.edu.cn
+            Name: edu.cn
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 145214 (1 day, 16 hours, 20 minutes, 14 seconds)
+            Data length: 6
+            Name Server: dns.edu.cn
+        edu.cn: type NS, class IN, ns ns4.cernet.net
+            Name: edu.cn
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 145214 (1 day, 16 hours, 20 minutes, 14 seconds)
+            Data length: 6
+            Name Server: ns4.cernet.net
+        edu.cn: type NS, class IN, ns ns5.cernet.net
+            Name: edu.cn
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 145214 (1 day, 16 hours, 20 minutes, 14 seconds)
+            Data length: 6
+            Name Server: ns5.cernet.net
+        edu.cn: type NS, class IN, ns dns2.edu.cn
+            Name: edu.cn
+            Type: NS (2) (authoritative Name Server)
+            Class: IN (0x0001)
+            Time to live: 145214 (1 day, 16 hours, 20 minutes, 14 seconds)
+            Data length: 7
+            Name Server: dns2.edu.cn
+    Additional records
+        dns.edu.cn: type A, class IN, addr 202.38.109.35
+            Name: dns.edu.cn
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 145214 (1 day, 16 hours, 20 minutes, 14 seconds)
+            Data length: 4
+            Address: 202.38.109.35
+        dns.edu.cn: type AAAA, class IN, addr 2001:250:c006::35
+            Name: dns.edu.cn
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 145214 (1 day, 16 hours, 20 minutes, 14 seconds)
+            Data length: 16
+            AAAA Address: 2001:250:c006::35
+        ns2.cernet.net: type A, class IN, addr 103.137.60.203
+            Name: ns2.cernet.net
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 1010 (16 minutes, 50 seconds)
+            Data length: 4
+            Address: 103.137.60.203
+        ns2.cernet.net: type AAAA, class IN, addr 2001:dd9::203
+            Name: ns2.cernet.net
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 1708 (28 minutes, 28 seconds)
+            Data length: 16
+            AAAA Address: 2001:dd9::203
+        ns4.cernet.net: type A, class IN, addr 193.174.75.78
+            Name: ns4.cernet.net
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 2948 (49 minutes, 8 seconds)
+            Data length: 4
+            Address: 193.174.75.78
+        ns4.cernet.net: type A, class IN, addr 101.4.62.203
+            Name: ns4.cernet.net
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 2948 (49 minutes, 8 seconds)
+            Data length: 4
+            Address: 101.4.62.203
+        ns4.cernet.net: type AAAA, class IN, addr 2001:250:62::203
+            Name: ns4.cernet.net
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 2948 (49 minutes, 8 seconds)
+            Data length: 16
+            AAAA Address: 2001:250:62::203
+        ns4.cernet.net: type AAAA, class IN, addr 2001:638:d:b104::2
+            Name: ns4.cernet.net
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 2948 (49 minutes, 8 seconds)
+            Data length: 16
+            AAAA Address: 2001:638:d:b104::2
+        ns5.cernet.net: type A, class IN, addr 166.111.8.30
+            Name: ns5.cernet.net
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 1401 (23 minutes, 21 seconds)
+            Data length: 4
+            Address: 166.111.8.30
+        ns5.cernet.net: type A, class IN, addr 137.189.6.21
+            Name: ns5.cernet.net
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 1401 (23 minutes, 21 seconds)
+            Data length: 4
+            Address: 137.189.6.21
+        ns5.cernet.net: type AAAA, class IN, addr 2405:3000:3:6::15
+            Name: ns5.cernet.net
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 4939 (1 hour, 22 minutes, 19 seconds)
+            Data length: 16
+            AAAA Address: 2405:3000:3:6::15
+        ns5.cernet.net: type AAAA, class IN, addr 2402:f000:1:801::8:30
+            Name: ns5.cernet.net
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 4939 (1 hour, 22 minutes, 19 seconds)
+            Data length: 16
+            AAAA Address: 2402:f000:1:801::8:30
+        dns2.edu.cn: type A, class IN, addr 202.112.0.13
+            Name: dns2.edu.cn
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 79323 (22 hours, 2 minutes, 3 seconds)
+            Data length: 4
+            Address: 202.112.0.13
+        dns2.edu.cn: type AAAA, class IN, addr 2001:da8:1:100::13
+            Name: dns2.edu.cn
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 100304 (1 day, 3 hours, 51 minutes, 44 seconds)
+            Data length: 16
+            AAAA Address: 2001:da8:1:100::13
+        dns3.edu.cn: type A, class IN, addr 101.4.62.35
+            Name: dns3.edu.cn
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 145214 (1 day, 16 hours, 20 minutes, 14 seconds)
+            Data length: 4
+            Address: 101.4.62.35
+    [Request In: 37]
+    [Time: 3.024000 milliseconds]
+
+Frame 39: Packet, 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 20, 2026 09:15:33.701951000 CST
+    UTC Arrival Time: Oct 20, 2026 01:15:33.701951000 UTC
+    Epoch Arrival Time: 1792458933.701951000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 624.641000 milliseconds]
+    [Time delta from previous displayed frame: 624.641000 milliseconds]
+    [Time since reference or first frame: 17.233413000 seconds]
+    Frame Number: 39
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+Ethernet II, Src: fe:78:88:a1:99:18, Dst: 74:08:aa:99:5c:16
+    Destination: 74:08:aa:99:5c:16
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: fe:78:88:a1:99:18
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 10.135.128.230, Dst: 202.115.39.9
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 60
+    Identification: 0x8a5c (35420)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x736b [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.135.128.230
+    Destination Address: 202.115.39.9
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 62838, Dst Port: 53
+    Source Port: 62838
+    Destination Port: 53
+    Length: 40
+    Checksum: 0x885f [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Stream Packet Number: 1]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (32 bytes)
+Domain Name System (query)
+    Transaction ID: 0x498d
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.scu.edu.cn: type CNAME, class IN
+            Name: www.scu.edu.cn
+            [Name Length: 14]
+            [Label Count: 4]
+            Type: CNAME (5) (Canonical NAME for an alias)
+            Class: IN (0x0001)
+
+Frame 40: Packet, 124 bytes on wire (992 bits), 124 bytes captured (992 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 20, 2026 09:15:33.777112000 CST
+    UTC Arrival Time: Oct 20, 2026 01:15:33.777112000 UTC
+    Epoch Arrival Time: 1792458933.777112000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 75.161000 milliseconds]
+    [Time delta from previous displayed frame: 75.161000 milliseconds]
+    [Time since reference or first frame: 17.308574000 seconds]
+    Frame Number: 40
+    Frame Length: 124 bytes (992 bits)
+    Capture Length: 124 bytes (992 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+Ethernet II, Src: 74:08:aa:99:5c:16, Dst: fe:78:88:a1:99:18
+    Destination: fe:78:88:a1:99:18
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 74:08:aa:99:5c:16
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 202.115.39.9, Dst: 10.135.128.230
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 110
+    Identification: 0xd831 (55345)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 62
+    Protocol: UDP (17)
+    Header Checksum: 0x2764 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 202.115.39.9
+    Destination Address: 10.135.128.230
+    [Stream index: 0]
+User Datagram Protocol, Src Port: 53, Dst Port: 62838
+    Source Port: 53
+    Destination Port: 62838
+    Length: 90
+    Checksum: 0xa226 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Stream Packet Number: 2]
+    [Timestamps]
+        [Time since first frame: 75.161000 milliseconds]
+        [Time since previous frame: 75.161000 milliseconds]
+    UDP payload (82 bytes)
+Domain Name System (response)
+    Transaction ID: 0x498d
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        www.scu.edu.cn: type CNAME, class IN
+            Name: www.scu.edu.cn
+            [Name Length: 14]
+            [Label Count: 4]
+            Type: CNAME (5) (Canonical NAME for an alias)
+            Class: IN (0x0001)
+    Authoritative nameservers
+        scu.edu.cn: type SOA, class IN, mname dart.scu.edu.cn
+            Name: scu.edu.cn
+            Type: SOA (6) (Start Of a zone of Authority)
+            Class: IN (0x0001)
+            Time to live: 300 (5 minutes)
+            Data length: 38
+            Primary name server: dart.scu.edu.cn
+            Responsible authority's mailbox: root@scu.edu.cn
+            [Responsible authority's mailbox name: root@scu@edu.cn]
+            Serial Number: 2024110585
+            Refresh Interval: 1200 (20 minutes)
+            Retry Interval: 1200 (20 minutes)
+            Expire limit: 1209600 (14 days)
+            Minimum TTL: 600 (10 minutes)
+    [Request In: 39]
+    [Time: 75.161000 milliseconds]
+

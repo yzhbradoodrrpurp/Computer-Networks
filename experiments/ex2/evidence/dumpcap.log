@@ -1,0 +1,4 @@
+Capturing on 'Wi-Fi: en0'
+File: /Users/yzhbradoodrrpurp/Desktop/Computer Networks/experiments/ex2/evidence/2023141220023_易治行_实验2_DNS.pcapng
+Packets: 8 Packets: 9 Packets: 10 Packets: 12 Packets: 14 Packets: 15 Packets: 16 Packets: 18 Packets: 20 Packets: 23 Packets: 26 Packets: 27 Packets: 28 Packets: 29 Packets: 30 Packets: 31 Packets: 32 Packets: 33 Packets: 34 Packets: 35 Packets: 36 Packets: 38 Packets: 40 Packets captured: 40
+Packets received/dropped on interface 'Wi-Fi: en0': 40/0 (pcap:0/dumpcap:0/flushed:0/ps_ifdrop:0) (100.0%)

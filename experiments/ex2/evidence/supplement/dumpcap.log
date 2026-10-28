@@ -1,0 +1,5 @@
+Capturing on 'pktap,all'
+dumpcap: BIOCPROMISC: Operation not supported on socket.
+File: /Users/yzhbradoodrrpurp/Desktop/Computer Networks/experiments/ex2/evidence/supplement/2023141220023_易治行_实验2_DNS.pcapng
+Packets: 2 Packets: 6 Packets: 8 Packets: 9 Packets: 10 Packets: 11 Packets: 12 Packets: 13 Packets: 14 Packets: 15 Packets: 17 Packets: 19 Packets: 20 Packets: 21 Packets: 22 Packets: 23 Packets captured: 23
+Packets received/dropped on interface 'pktap,all': 23/0 (pcap:0/dumpcap:0/flushed:0/ps_ifdrop:0) (100.0%)

@@ -1,0 +1,13 @@
+frame	actions	src	dst	sport	dport	transport	id	response	AA	RD	RA	rcode	query	qtype	response_to	response_in	answers	CNAME	A	TTL
+5	['baidu-ping-first']	10.135.128.230	223.5.5.5	54546	53	UDP	0x12c7	False		True			www.baidu.com	1			0	[]	[]	[]
+6	['baidu-ping-first']	223.5.5.5	10.135.128.230	53	54546	UDP	0x12c7	True	False	True	True	0	www.baidu.com	1	5		3	['www.a.shifen.com']	['110.242.70.57', '110.242.69.21']	['1029', '54', '54']
+25	['scu-ping-first']	10.135.128.230	223.5.5.5	56898	53	UDP	0xf1c5	False		True			www.scu.edu.cn	1			0	[]	[]	[]
+26	['scu-ping-first']	223.5.5.5	10.135.128.230	53	56898	UDP	0xf1c5	True	False	True	True	0	www.scu.edu.cn	1	25		1	[]	['202.115.47.167']	['174']
+36	['baidu-nslookup-A']	10.135.128.230	202.115.39.9	49533	53	UDP	0x9d7c	False		True			www.baidu.com	1			0	[]	[]	[]
+37	['baidu-nslookup-A']	202.115.39.9	10.135.128.230	53	49533	UDP	0x9d7c	True	False	True	True	0	www.baidu.com	1	36		3	['www.a.shifen.com']	['110.242.69.21', '110.242.70.57']	['615', '233', '233']
+38	['baidu-nslookup-CNAME']	10.135.128.230	202.115.39.9	54677	53	UDP	0x4552	False		True			www.baidu.com	5			0	[]	[]	[]
+39	['baidu-nslookup-CNAME']	202.115.39.9	10.135.128.230	53	54677	UDP	0x4552	True	False	True	True	0	www.baidu.com	5	38		1	['www.a.shifen.com']	[]	['614']
+40	['scu-nslookup-A']	10.135.128.230	202.115.39.9	52277	53	UDP	0x0ce6	False		True			www.scu.edu.cn	1			0	[]	[]	[]
+41	['scu-nslookup-A']	202.115.39.9	10.135.128.230	53	52277	UDP	0x0ce6	True	False	True	True	0	www.scu.edu.cn	1	40		1	[]	['202.115.47.167', '202.115.32.39', '42.236.73.177', '42.236.73.178', '211.83.155.2', '202.115.32.36']	['26', '150197', '150197', '150197', '150197', '150197', '317', '145944', '145944', '145944', '52663']
+50	['scu-nslookup-CNAME']	10.135.128.230	202.115.39.9	53482	53	UDP	0x3a1c	False		True			www.scu.edu.cn	5			0	[]	[]	[]
+51	['scu-nslookup-CNAME']	202.115.39.9	10.135.128.230	53	53482	UDP	0x3a1c	True	False	True	True	0	www.scu.edu.cn	5	50		0	[]	[]	['300']

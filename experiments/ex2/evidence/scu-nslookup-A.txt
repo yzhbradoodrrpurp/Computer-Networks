@@ -1,0 +1,8 @@
+$ /usr/bin/nslookup -type=A www.scu.edu.cn. 202.115.39.9
+Server:		202.115.39.9
+Address:	202.115.39.9#53
+
+Non-authoritative answer:
+Name:	www.scu.edu.cn
+Address: 202.115.47.167
+

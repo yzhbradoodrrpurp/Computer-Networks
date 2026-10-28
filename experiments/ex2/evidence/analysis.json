@@ -1,0 +1,884 @@
+[
+  {
+    "frame": 33,
+    "time_epoch": 1792458931.204459,
+    "actions": [
+      "baidu-nslookup-A"
+    ],
+    "src": "10.135.128.230",
+    "dst": "202.115.39.9",
+    "sport": "59613",
+    "dport": "53",
+    "transport": "UDP",
+    "id": "0x04be",
+    "response": "False",
+    "AA": "",
+    "RD": "True",
+    "RA": "",
+    "rcode": "",
+    "query": "www.baidu.com",
+    "qtype": "1",
+    "response_to": "",
+    "response_in": "",
+    "answers": "0",
+    "CNAME": [],
+    "A": [],
+    "AAAA": [],
+    "RR_names": [],
+    "RR_types": [],
+    "TTL": [],
+    "resource_records": []
+  },
+  {
+    "frame": 34,
+    "time_epoch": 1792458931.640218,
+    "actions": [
+      "baidu-nslookup-A"
+    ],
+    "src": "202.115.39.9",
+    "dst": "10.135.128.230",
+    "sport": "53",
+    "dport": "59613",
+    "transport": "UDP",
+    "id": "0x04be",
+    "response": "True",
+    "AA": "False",
+    "RD": "True",
+    "RA": "True",
+    "rcode": "0",
+    "query": "www.baidu.com",
+    "qtype": "1",
+    "response_to": "33",
+    "response_in": "",
+    "answers": "3",
+    "CNAME": [
+      "www.a.shifen.com"
+    ],
+    "A": [
+      "110.242.70.57",
+      "110.242.69.21",
+      "110.242.68.134",
+      "220.181.33.31",
+      "153.3.238.93",
+      "36.155.132.78",
+      "14.215.178.80",
+      "111.45.3.226"
+    ],
+    "AAAA": [
+      "240e:bf:b801:1002:0:ff:b024:26de",
+      "240e:940:603:4:0:ff:b01b:589a"
+    ],
+    "RR_names": [
+      "www.baidu.com",
+      "www.a.shifen.com",
+      "www.a.shifen.com",
+      "shifen.com",
+      "shifen.com",
+      "shifen.com",
+      "shifen.com",
+      "dns.baidu.com",
+      "dns.baidu.com",
+      "ns2.baidu.com",
+      "ns2.baidu.com",
+      "ns3.baidu.com",
+      "ns3.baidu.com",
+      "ns4.baidu.com",
+      "ns4.baidu.com"
+    ],
+    "RR_types": [
+      "5",
+      "1",
+      "1",
+      "2",
+      "2",
+      "2",
+      "2",
+      "1",
+      "28",
+      "1",
+      "28",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "TTL": [
+      "476",
+      "475",
+      "475",
+      "70314",
+      "70314",
+      "70314",
+      "70314",
+      "25972",
+      "6014",
+      "18818",
+      "17824",
+      "70825",
+      "70825",
+      "70885",
+      "70885"
+    ],
+    "resource_records": [
+      {
+        "section": "Answers",
+        "summary": "www.baidu.com: type CNAME, class IN, cname www.a.shifen.com",
+        "fields": {
+          "dns.resp.name": "www.baidu.com",
+          "dns.resp.type": "5",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "476",
+          "dns.resp.len": "15",
+          "dns.cname": "www.a.shifen.com"
+        }
+      },
+      {
+        "section": "Answers",
+        "summary": "www.a.shifen.com: type A, class IN, addr 110.242.70.57",
+        "fields": {
+          "dns.resp.name": "www.a.shifen.com",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "475",
+          "dns.resp.len": "4",
+          "dns.a": "110.242.70.57"
+        }
+      },
+      {
+        "section": "Answers",
+        "summary": "www.a.shifen.com: type A, class IN, addr 110.242.69.21",
+        "fields": {
+          "dns.resp.name": "www.a.shifen.com",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "475",
+          "dns.resp.len": "4",
+          "dns.a": "110.242.69.21"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "shifen.com: type NS, class IN, ns ns4.baidu.com",
+        "fields": {
+          "dns.resp.name": "shifen.com",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "70314",
+          "dns.resp.len": "6",
+          "dns.ns": "ns4.baidu.com"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "shifen.com: type NS, class IN, ns dns.baidu.com",
+        "fields": {
+          "dns.resp.name": "shifen.com",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "70314",
+          "dns.resp.len": "6",
+          "dns.ns": "dns.baidu.com"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "shifen.com: type NS, class IN, ns ns2.baidu.com",
+        "fields": {
+          "dns.resp.name": "shifen.com",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "70314",
+          "dns.resp.len": "6",
+          "dns.ns": "ns2.baidu.com"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "shifen.com: type NS, class IN, ns ns3.baidu.com",
+        "fields": {
+          "dns.resp.name": "shifen.com",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "70314",
+          "dns.resp.len": "6",
+          "dns.ns": "ns3.baidu.com"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "dns.baidu.com: type A, class IN, addr 110.242.68.134",
+        "fields": {
+          "dns.resp.name": "dns.baidu.com",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "25972",
+          "dns.resp.len": "4",
+          "dns.a": "110.242.68.134"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "dns.baidu.com: type AAAA, class IN, addr 240e:bf:b801:1002:0:ff:b024:26de",
+        "fields": {
+          "dns.resp.name": "dns.baidu.com",
+          "dns.resp.type": "28",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "6014",
+          "dns.resp.len": "16",
+          "dns.aaaa": "240e:bf:b801:1002:0:ff:b024:26de"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns2.baidu.com: type A, class IN, addr 220.181.33.31",
+        "fields": {
+          "dns.resp.name": "ns2.baidu.com",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "18818",
+          "dns.resp.len": "4",
+          "dns.a": "220.181.33.31"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns2.baidu.com: type AAAA, class IN, addr 240e:940:603:4:0:ff:b01b:589a",
+        "fields": {
+          "dns.resp.name": "ns2.baidu.com",
+          "dns.resp.type": "28",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "17824",
+          "dns.resp.len": "16",
+          "dns.aaaa": "240e:940:603:4:0:ff:b01b:589a"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns3.baidu.com: type A, class IN, addr 153.3.238.93",
+        "fields": {
+          "dns.resp.name": "ns3.baidu.com",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "70825",
+          "dns.resp.len": "4",
+          "dns.a": "153.3.238.93"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns3.baidu.com: type A, class IN, addr 36.155.132.78",
+        "fields": {
+          "dns.resp.name": "ns3.baidu.com",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "70825",
+          "dns.resp.len": "4",
+          "dns.a": "36.155.132.78"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns4.baidu.com: type A, class IN, addr 14.215.178.80",
+        "fields": {
+          "dns.resp.name": "ns4.baidu.com",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "70885",
+          "dns.resp.len": "4",
+          "dns.a": "14.215.178.80"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns4.baidu.com: type A, class IN, addr 111.45.3.226",
+        "fields": {
+          "dns.resp.name": "ns4.baidu.com",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "70885",
+          "dns.resp.len": "4",
+          "dns.a": "111.45.3.226"
+        }
+      }
+    ]
+  },
+  {
+    "frame": 35,
+    "time_epoch": 1792458932.263725,
+    "actions": [
+      "baidu-nslookup-CNAME"
+    ],
+    "src": "10.135.128.230",
+    "dst": "202.115.39.9",
+    "sport": "51298",
+    "dport": "53",
+    "transport": "UDP",
+    "id": "0x71c2",
+    "response": "False",
+    "AA": "",
+    "RD": "True",
+    "RA": "",
+    "rcode": "",
+    "query": "www.baidu.com",
+    "qtype": "5",
+    "response_to": "",
+    "response_in": "",
+    "answers": "0",
+    "CNAME": [],
+    "A": [],
+    "AAAA": [],
+    "RR_names": [],
+    "RR_types": [],
+    "TTL": [],
+    "resource_records": []
+  },
+  {
+    "frame": 36,
+    "time_epoch": 1792458932.456642,
+    "actions": [
+      "baidu-nslookup-CNAME"
+    ],
+    "src": "202.115.39.9",
+    "dst": "10.135.128.230",
+    "sport": "53",
+    "dport": "51298",
+    "transport": "UDP",
+    "id": "0x71c2",
+    "response": "True",
+    "AA": "False",
+    "RD": "True",
+    "RA": "True",
+    "rcode": "0",
+    "query": "www.baidu.com",
+    "qtype": "5",
+    "response_to": "35",
+    "response_in": "",
+    "answers": "1",
+    "CNAME": [
+      "www.a.shifen.com"
+    ],
+    "A": [],
+    "AAAA": [],
+    "RR_names": [
+      "www.baidu.com"
+    ],
+    "RR_types": [
+      "5"
+    ],
+    "TTL": [
+      "475"
+    ],
+    "resource_records": [
+      {
+        "section": "Answers",
+        "summary": "www.baidu.com: type CNAME, class IN, cname www.a.shifen.com",
+        "fields": {
+          "dns.resp.name": "www.baidu.com",
+          "dns.resp.type": "5",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "475",
+          "dns.resp.len": "15",
+          "dns.cname": "www.a.shifen.com"
+        }
+      }
+    ]
+  },
+  {
+    "frame": 37,
+    "time_epoch": 1792458933.074286,
+    "actions": [
+      "scu-nslookup-A"
+    ],
+    "src": "10.135.128.230",
+    "dst": "202.115.39.9",
+    "sport": "57892",
+    "dport": "53",
+    "transport": "UDP",
+    "id": "0x3b28",
+    "response": "False",
+    "AA": "",
+    "RD": "True",
+    "RA": "",
+    "rcode": "",
+    "query": "www.scu.edu.cn",
+    "qtype": "1",
+    "response_to": "",
+    "response_in": "",
+    "answers": "0",
+    "CNAME": [],
+    "A": [],
+    "AAAA": [],
+    "RR_names": [],
+    "RR_types": [],
+    "TTL": [],
+    "resource_records": []
+  },
+  {
+    "frame": 38,
+    "time_epoch": 1792458933.07731,
+    "actions": [
+      "scu-nslookup-A"
+    ],
+    "src": "202.115.39.9",
+    "dst": "10.135.128.230",
+    "sport": "53",
+    "dport": "57892",
+    "transport": "UDP",
+    "id": "0x3b28",
+    "response": "True",
+    "AA": "False",
+    "RD": "True",
+    "RA": "True",
+    "rcode": "0",
+    "query": "www.scu.edu.cn",
+    "qtype": "1",
+    "response_to": "37",
+    "response_in": "",
+    "answers": "1",
+    "CNAME": [],
+    "A": [
+      "202.115.47.167",
+      "202.38.109.35",
+      "103.137.60.203",
+      "193.174.75.78",
+      "101.4.62.203",
+      "166.111.8.30",
+      "137.189.6.21",
+      "202.112.0.13",
+      "101.4.62.35"
+    ],
+    "AAAA": [
+      "2001:250:c006::35",
+      "2001:dd9::203",
+      "2001:250:62::203",
+      "2001:638:d:b104::2",
+      "2405:3000:3:6::15",
+      "2402:f000:1:801::8:30",
+      "2001:da8:1:100::13"
+    ],
+    "RR_names": [
+      "www.scu.edu.cn",
+      "edu.cn",
+      "edu.cn",
+      "edu.cn",
+      "edu.cn",
+      "edu.cn",
+      "edu.cn",
+      "dns.edu.cn",
+      "dns.edu.cn",
+      "ns2.cernet.net",
+      "ns2.cernet.net",
+      "ns4.cernet.net",
+      "ns4.cernet.net",
+      "ns4.cernet.net",
+      "ns4.cernet.net",
+      "ns5.cernet.net",
+      "ns5.cernet.net",
+      "ns5.cernet.net",
+      "ns5.cernet.net",
+      "dns2.edu.cn",
+      "dns2.edu.cn",
+      "dns3.edu.cn"
+    ],
+    "RR_types": [
+      "1",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "1",
+      "28",
+      "1",
+      "28",
+      "1",
+      "1",
+      "28",
+      "28",
+      "1",
+      "1",
+      "28",
+      "28",
+      "1",
+      "28",
+      "1"
+    ],
+    "TTL": [
+      "169",
+      "145214",
+      "145214",
+      "145214",
+      "145214",
+      "145214",
+      "145214",
+      "145214",
+      "145214",
+      "1010",
+      "1708",
+      "2948",
+      "2948",
+      "2948",
+      "2948",
+      "1401",
+      "1401",
+      "4939",
+      "4939",
+      "79323",
+      "100304",
+      "145214"
+    ],
+    "resource_records": [
+      {
+        "section": "Answers",
+        "summary": "www.scu.edu.cn: type A, class IN, addr 202.115.47.167",
+        "fields": {
+          "dns.resp.name": "www.scu.edu.cn",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "169",
+          "dns.resp.len": "4",
+          "dns.a": "202.115.47.167"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "edu.cn: type NS, class IN, ns ns2.cernet.net",
+        "fields": {
+          "dns.resp.name": "edu.cn",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "145214",
+          "dns.resp.len": "16",
+          "dns.ns": "ns2.cernet.net"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "edu.cn: type NS, class IN, ns dns3.edu.cn",
+        "fields": {
+          "dns.resp.name": "edu.cn",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "145214",
+          "dns.resp.len": "7",
+          "dns.ns": "dns3.edu.cn"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "edu.cn: type NS, class IN, ns dns.edu.cn",
+        "fields": {
+          "dns.resp.name": "edu.cn",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "145214",
+          "dns.resp.len": "6",
+          "dns.ns": "dns.edu.cn"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "edu.cn: type NS, class IN, ns ns4.cernet.net",
+        "fields": {
+          "dns.resp.name": "edu.cn",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "145214",
+          "dns.resp.len": "6",
+          "dns.ns": "ns4.cernet.net"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "edu.cn: type NS, class IN, ns ns5.cernet.net",
+        "fields": {
+          "dns.resp.name": "edu.cn",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "145214",
+          "dns.resp.len": "6",
+          "dns.ns": "ns5.cernet.net"
+        }
+      },
+      {
+        "section": "Authoritative nameservers",
+        "summary": "edu.cn: type NS, class IN, ns dns2.edu.cn",
+        "fields": {
+          "dns.resp.name": "edu.cn",
+          "dns.resp.type": "2",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "145214",
+          "dns.resp.len": "7",
+          "dns.ns": "dns2.edu.cn"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "dns.edu.cn: type A, class IN, addr 202.38.109.35",
+        "fields": {
+          "dns.resp.name": "dns.edu.cn",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "145214",
+          "dns.resp.len": "4",
+          "dns.a": "202.38.109.35"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "dns.edu.cn: type AAAA, class IN, addr 2001:250:c006::35",
+        "fields": {
+          "dns.resp.name": "dns.edu.cn",
+          "dns.resp.type": "28",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "145214",
+          "dns.resp.len": "16",
+          "dns.aaaa": "2001:250:c006::35"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns2.cernet.net: type A, class IN, addr 103.137.60.203",
+        "fields": {
+          "dns.resp.name": "ns2.cernet.net",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "1010",
+          "dns.resp.len": "4",
+          "dns.a": "103.137.60.203"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns2.cernet.net: type AAAA, class IN, addr 2001:dd9::203",
+        "fields": {
+          "dns.resp.name": "ns2.cernet.net",
+          "dns.resp.type": "28",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "1708",
+          "dns.resp.len": "16",
+          "dns.aaaa": "2001:dd9::203"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns4.cernet.net: type A, class IN, addr 193.174.75.78",
+        "fields": {
+          "dns.resp.name": "ns4.cernet.net",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "2948",
+          "dns.resp.len": "4",
+          "dns.a": "193.174.75.78"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns4.cernet.net: type A, class IN, addr 101.4.62.203",
+        "fields": {
+          "dns.resp.name": "ns4.cernet.net",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "2948",
+          "dns.resp.len": "4",
+          "dns.a": "101.4.62.203"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns4.cernet.net: type AAAA, class IN, addr 2001:250:62::203",
+        "fields": {
+          "dns.resp.name": "ns4.cernet.net",
+          "dns.resp.type": "28",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "2948",
+          "dns.resp.len": "16",
+          "dns.aaaa": "2001:250:62::203"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns4.cernet.net: type AAAA, class IN, addr 2001:638:d:b104::2",
+        "fields": {
+          "dns.resp.name": "ns4.cernet.net",
+          "dns.resp.type": "28",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "2948",
+          "dns.resp.len": "16",
+          "dns.aaaa": "2001:638:d:b104::2"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns5.cernet.net: type A, class IN, addr 166.111.8.30",
+        "fields": {
+          "dns.resp.name": "ns5.cernet.net",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "1401",
+          "dns.resp.len": "4",
+          "dns.a": "166.111.8.30"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns5.cernet.net: type A, class IN, addr 137.189.6.21",
+        "fields": {
+          "dns.resp.name": "ns5.cernet.net",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "1401",
+          "dns.resp.len": "4",
+          "dns.a": "137.189.6.21"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns5.cernet.net: type AAAA, class IN, addr 2405:3000:3:6::15",
+        "fields": {
+          "dns.resp.name": "ns5.cernet.net",
+          "dns.resp.type": "28",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "4939",
+          "dns.resp.len": "16",
+          "dns.aaaa": "2405:3000:3:6::15"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "ns5.cernet.net: type AAAA, class IN, addr 2402:f000:1:801::8:30",
+        "fields": {
+          "dns.resp.name": "ns5.cernet.net",
+          "dns.resp.type": "28",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "4939",
+          "dns.resp.len": "16",
+          "dns.aaaa": "2402:f000:1:801::8:30"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "dns2.edu.cn: type A, class IN, addr 202.112.0.13",
+        "fields": {
+          "dns.resp.name": "dns2.edu.cn",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "79323",
+          "dns.resp.len": "4",
+          "dns.a": "202.112.0.13"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "dns2.edu.cn: type AAAA, class IN, addr 2001:da8:1:100::13",
+        "fields": {
+          "dns.resp.name": "dns2.edu.cn",
+          "dns.resp.type": "28",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "100304",
+          "dns.resp.len": "16",
+          "dns.aaaa": "2001:da8:1:100::13"
+        }
+      },
+      {
+        "section": "Additional records",
+        "summary": "dns3.edu.cn: type A, class IN, addr 101.4.62.35",
+        "fields": {
+          "dns.resp.name": "dns3.edu.cn",
+          "dns.resp.type": "1",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "145214",
+          "dns.resp.len": "4",
+          "dns.a": "101.4.62.35"
+        }
+      }
+    ]
+  },
+  {
+    "frame": 39,
+    "time_epoch": 1792458933.701951,
+    "actions": [
+      "scu-nslookup-CNAME"
+    ],
+    "src": "10.135.128.230",
+    "dst": "202.115.39.9",
+    "sport": "62838",
+    "dport": "53",
+    "transport": "UDP",
+    "id": "0x498d",
+    "response": "False",
+    "AA": "",
+    "RD": "True",
+    "RA": "",
+    "rcode": "",
+    "query": "www.scu.edu.cn",
+    "qtype": "5",
+    "response_to": "",
+    "response_in": "",
+    "answers": "0",
+    "CNAME": [],
+    "A": [],
+    "AAAA": [],
+    "RR_names": [],
+    "RR_types": [],
+    "TTL": [],
+    "resource_records": []
+  },
+  {
+    "frame": 40,
+    "time_epoch": 1792458933.777112,
+    "actions": [
+      "scu-nslookup-CNAME"
+    ],
+    "src": "202.115.39.9",
+    "dst": "10.135.128.230",
+    "sport": "53",
+    "dport": "62838",
+    "transport": "UDP",
+    "id": "0x498d",
+    "response": "True",
+    "AA": "False",
+    "RD": "True",
+    "RA": "True",
+    "rcode": "0",
+    "query": "www.scu.edu.cn",
+    "qtype": "5",
+    "response_to": "39",
+    "response_in": "",
+    "answers": "0",
+    "CNAME": [],
+    "A": [],
+    "AAAA": [],
+    "RR_names": [
+      "scu.edu.cn"
+    ],
+    "RR_types": [
+      "6"
+    ],
+    "TTL": [
+      "300"
+    ],
+    "resource_records": [
+      {
+        "section": "Authoritative nameservers",
+        "summary": "scu.edu.cn: type SOA, class IN, mname dart.scu.edu.cn",
+        "fields": {
+          "dns.resp.name": "scu.edu.cn",
+          "dns.resp.type": "6",
+          "dns.resp.class": "0x0001",
+          "dns.resp.ttl": "300",
+          "dns.resp.len": "38",
+          "dns.soa.mname": "dart.scu.edu.cn",
+          "dns.soa.rname": "root@scu.edu.cn",
+          "dns.soa.rname.name": "root@scu@edu.cn",
+          "dns.soa.serial_number": "2024110585",
+          "dns.soa.refresh_interval": "1200",
+          "dns.soa.retry_interval": "1200",
+          "dns.soa.expire_limit": "1209600",
+          "dns.soa.minimum_ttl": "600"
+        }
+      }
+    ]
+  }
+]

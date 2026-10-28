@@ -1,0 +1,15 @@
+pc.getPort("FastEthernet0").setIpSubnetMask("192.168.1.155","255.255.255.0");
+dns.getPort("FastEthernet0").setIpSubnetMask("192.168.1.199","255.255.255.0");
+host.getPort("FastEthernet0").setIpSubnetMask("192.168.1.200","255.255.255.0");
+ws.createLink(pc.getName(),"FastEthernet0",sw.getName(),"FastEthernet0/1",8100);
+ws.createLink(dns.getName(),"FastEthernet0",sw.getName(),"FastEthernet1/1",8100);
+ws.createLink(host.getName(),"FastEthernet0",sw.getName(),"FastEthernet2/1",8100);
+pc.getProcess("DnsClient").setServerIp("192.168.1.199");
+var ds=dns.getProcess("DnsServer");ds.setEnable(true);
+dprint("A record="+ds.addARecordToNameServerDb("www.yizhixing.com","192.168.1.200"));
+dprint("CNAME record="+ds.addCNAMEToNameServerDb("www1.2023141220023.com","www.yizhixing.com"));
+ws.addNote(250,70,0,"实验2 DNS服务器配置与DNS协议分析\n易治行 2023141220023 102班");
+ws.addNote(220,330,0,"PC: 192.168.1.155/24\nDNS: 192.168.1.199");
+ws.addNote(850,150,0,"DNS: 192.168.1.199/24");
+ws.addNote(850,400,0,"HOST: 192.168.1.200/24");
+dprint("CONFIGURED");
