@@ -143,4 +143,42 @@ HTTP响应格式：
 > 4. 之后访问该网站时，浏览器在请求中带上：`Cookie: session_id=abc123`
 > 5. 服务器根据 session_id 找到对应的登录状态
 
-## Web Caches
+## Web Caches (Proxy Server)
+
+代理服务器 (Proxy Server) ：在不访问原始服务器的前提下满足客户端HTTP请求的设计。
+
+这么做的原因：
+
+- 缩短客户端请求的响应时间
+- 减少机构/组织的流量拥堵
+- 在大范围内 (Internet) 实现有效的内容分发
+
+流程：
+
+1. 客户端向代理服务器发送HTTP请求
+2. 如果请求内容在代理服务器上，直接将内容返回客户端
+3. 如果请求内容不在代理服务器上，代理服务器向原始服务器请求并保存到代理服务器上，然后将内容返回客户端
+
+![proxyserver](resources/proxyserver.png)
+
+> - Web Caches / Proxy Server同时充当客户端和服务器
+>
+> - Proxy Server一般由ISP安装，比如大学、公司等等
+
+### 条件性GET
+
+Conditional GET：如果代理服务器上的数据已经是最新的，原始服务器不需要向代理服务器发送内容。
+
+这么做的好处：
+
+- 没有内容传输延迟
+- 降低流量拥堵
+
+流程：
+
+1. 代理服务器在HTTP请求中申明已有缓存的日期
+2. 原始服务器核查缓存是否是最新的
+3. 如果是最新的，则原始服务器向代理服务器返回 `304 Not Modified`
+4. 如果不是最新的，则原始服务器向代理服务器返回 `200 OK` 和实际的信息
+
+![conditionalget](resources/conditionalget.png)
